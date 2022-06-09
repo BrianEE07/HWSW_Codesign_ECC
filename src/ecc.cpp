@@ -36,8 +36,14 @@ bool* multiplication (bool *a, bool *b, bool *p, int bitnum) {
     }
 }
 
-bool* inverse () {
-
+bool* inverse (bool *a, bool *p, int bitnum) {
+    bool* c = multiplication(a, a, p, bitnum);
+    bool* sqr = multiplication(a, a, p, bitnum);
+    for (int i = 2;i < bitnum;++i) {
+        sqr = multiplication(sqr, sqr, p, bitnum);
+        c = multiplication(c, sqr, p, bitnum);
+    }
+    return c;
 }
 
 int main(void) {
@@ -75,12 +81,12 @@ int main(void) {
     cout << "poly: ";
     print(poly, bitnum);
     bool* sum = addition(Px, Py, bitnum);
-    bool* mul = multiplication(Px, Py, poly, bitnum);
     cout << "sum: ";
     print(sum, bitnum);
+    bool* mul = multiplication(Px, Py, poly, bitnum);
     cout << "mul: ";
     print(mul, bitnum);
-    // for (int i = 0;i < 256;i = i + 1) {
-    //     bool* mul = multiplication(Px, Px, poly, bitnum);
-    // }
+    bool* inv = inverse(Px, poly, bitnum);
+    cout << "inv: ";
+    print(inv, bitnum);
 }
