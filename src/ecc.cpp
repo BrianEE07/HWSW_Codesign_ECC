@@ -34,6 +34,7 @@ bool* multiplication (bool *a, bool *b, bool *p, int bitnum) {
         }
         c[0] = 0;
     }
+    return c;
 }
 
 bool* inverse (bool *a, bool *p, int bitnum) {
