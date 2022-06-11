@@ -3,3 +3,4 @@
 **/.DS_Store
 .vscode
 *.o
+systemc-2.3.3/
