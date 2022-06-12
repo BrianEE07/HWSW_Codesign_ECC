@@ -156,8 +156,8 @@ int main(void) {
 
     // Read Pattern Px, Py, poly, a, b
     fstream fin;
-    // fin.open("pattern/pattern_163.txt", ios::in);
-    fin.open("pattern/pattern_8.txt", ios::in);
+    // fin.open("../pattern/pattern_163.txt", ios::in);
+    fin.open("../pattern/pattern_8.txt", ios::in);
     if (!fin) {
         cerr << "Error: Can't open file!\n";
         exit(1);
@@ -191,12 +191,12 @@ int main(void) {
     // print(Py, bitnum);
     // cout << "poly: ";
     // print(poly, bitnum);
-    // bool* sum = addition(Px, Py, bitnum);
-    // cout << "sum: ";
-    // print(sum, bitnum);
-    // bool* mul = multiplication(Px, Py, poly, bitnum);
-    // cout << "mul: ";
-    // print(mul, bitnum);
+    bool* sum = addition(Px, Py, bitnum);
+    cout << "sum: ";
+    print(sum, bitnum);
+    bool* mul = multiplication(Px, Py, poly, bitnum);
+    cout << "mul: ";
+    print(mul, bitnum);
     // bool* inv = inverse(Px, poly, bitnum);
     // cout << "inv: ";
     // print(inv, bitnum);
