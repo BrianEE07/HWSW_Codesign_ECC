@@ -197,9 +197,9 @@ int main(void) {
     bool* mul = multiplication(Px, Py, poly, bitnum);
     cout << "mul: ";
     print(mul, bitnum);
-    // bool* inv = inverse(Px, poly, bitnum);
-    // cout << "inv: ";
-    // print(inv, bitnum);
+    bool* inv = inverse(Px, poly, bitnum);
+    cout << "inv: ";
+    print(inv, bitnum);
 
     //// point arithmetic
     point P;
