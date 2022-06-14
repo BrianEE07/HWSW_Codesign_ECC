@@ -71,10 +71,13 @@ bool* inverse (bool *a, bool *p, int bitnum) {
 bool equal(point P, point Q, int bitnum) {
     bool eq = true;
     if (P.is_inf != Q.is_inf) return false;
-    for (int i = 0;i < bitnum;++i) {
-        if (P.x[i] != Q.x[i] || P.y[i] != Q.y[i]) {
-            eq = false;
-            break;
+    else if (P.is_inf && Q.is_inf) return true;
+    else {
+        for (int i = 0;i < bitnum;++i) {
+            if (P.x[i] != Q.x[i] || P.y[i] != Q.y[i]) {
+                eq = false;
+                break;
+            }
         }
     }
     return eq;
@@ -203,8 +206,11 @@ int main(void) {
 
     //// point arithmetic
     point P;
+    point Q;
     P.x = Px;
     P.y = Py;
+    Q.x = a;
+    Q.y = b;
     // cout << "POINT NEG" << endl;
     // point P_neg = point_negation(P, bitnum);
     // print(P_neg, bitnum);
@@ -214,6 +220,9 @@ int main(void) {
     // cout << "POINT ADD" << endl;
     // point P_add = point_addition(P, P, a, poly, bitnum);
     // print(P_add, bitnum);
+    cout << "POINT ADD" << endl;
+    point P_add = point_addition(P, Q, a, poly, bitnum);
+    print(P_add, bitnum);
     // cout << "POINT SCALARMULT" << endl;
     // point P_sca = scalar_multiplication(10, P, a, poly, bitnum);
     // print(P_sca, bitnum);
