@@ -1,10 +1,7 @@
-#include <vector>
-#include <iostream>
+#ifndef	__ASIC_H
+#define __ASIC_H
 #include "systemc.h"
-
-#define clockcycle 10 // 10ns = 100MHz
-#define maxcycle   10000
-#define maxtime    maxcycle*clockcycle
+#include <stdio.h>
 
 SC_MODULE(PE){
     sc_in<bool> clk, rst_n;
@@ -1943,146 +1940,8 @@ SC_MODULE(ECC){
     }
 };
 
-SC_MODULE(SCALAR_MULT_tb){
-
-    sc_in<bool> clk;
-    sc_in<bool> finish;
-    sc_out<bool> rst_n;
-    sc_out<bool> start;
-    sc_out<sc_biguint<8>> n;
-    sc_out<sc_biguint<17>> P;
-    sc_out<sc_biguint<8>> a, p;
-
-
-    void reset() {
-        rst_n.write(true);
-        wait();
-        rst_n.write(false);
-        start.write(0);
-        n.write(0);
-        P.write(0);
-        a.write(0);
-        p.write(0);
-        wait();
-        rst_n.write(true);
-        wait();
-    }
-
-    void tb_input() {
-        reset();
-        start.write(1);
-        n.write(59);
-        P.write(59082);
-        a.write(170);
-        p.write(27);
-        while (!finish.read()) {
-            wait();
-        }
-        wait();
-        reset();
-        start.write(1);
-        n.write(3);
-        P.write(59082);
-        a.write(170);
-        p.write(27);
-        while (!finish.read()) {
-            wait();
-        }
-        wait();
-        sc_stop();
-    }
-
-    SC_CTOR(SCALAR_MULT_tb) {
-        SC_THREAD(tb_input);
-        sensitive << clk.pos();
-    }
-
-};
-
-SC_MODULE(ECC_tb){
-
-    sc_in<bool> clk;
-    sc_in<sc_uint<8>> valid;
-    sc_out<bool> rst_n;
-    sc_out<sc_uint<8>> P0;
-    sc_out<sc_uint<8>> P1;
-
-
-    void reset() {
-        rst_n.write(true);
-        wait();
-        rst_n.write(false);
-        P0.write(0);
-        P1.write(0);
-        wait();
-        rst_n.write(true);
-        wait();
-    }
-
-    void tb_input() {
-        reset();
-        P0.write(1);
-        wait();
-        P1.write(59);
-        wait();
-        P1.write(0);
-        wait();
-        P1.write(230);
-        wait();
-        P1.write(202);
-        wait();
-        P1.write(170);
-        wait();
-        P1.write(27);
-        wait();
-        while (!valid.read()) {
-            wait();
-        }
-        wait();
-        wait();
-        wait();
-        wait();
-        wait();
-        sc_stop();
-    }
-
-    SC_CTOR(ECC_tb) {
-        SC_THREAD(tb_input);
-        sensitive << clk.pos();
-    }
-
-};
-
-SC_MODULE(SCALAR_MULT_mon){
-    sc_in<bool> clk;
-    sc_in<bool> rst_n;
-    sc_in<bool> start;
-    sc_in<sc_biguint<8>> n;
-    sc_in<sc_biguint<17>> P;
-    sc_in<sc_biguint<8>> a, p;
-    sc_in<sc_biguint<17>> P_o;
-    sc_in<bool> finish;
-
-    void monitor() {
-        if (rst_n == 0) cout << sc_time_stamp() << "\t" << "RESET" << endl;
-        else if (finish == 1) {
-            cout << sc_time_stamp() << "\t" << start << "\t" << sc_bv<8>(n) << "\t" << sc_bv<17>(P) << "\t" << sc_bv<8>(a) << "\t" << sc_bv<8>(p) << "\t" << sc_bv<17>(P_o) << "\t" << finish << endl;
-        }
-        else {
-            // cout << sc_time_stamp() << "\t" << start << "\t" << sc_bv<8>(n) << "\t" << sc_bv<17>(P) << "\t" << sc_bv<8>(a) << "\t" << sc_bv<8>(p) << "\t" << sc_bv<17>(P_o) << "\t" << finish << endl;
-        }
-    }
-  
-    SC_CTOR(SCALAR_MULT_mon) {
-        cout << endl << "time\t\tstart\t\tn\tP\t\t\ta\t\tp\t\tP_o\t\t\tfinish" << endl;
-        SC_METHOD(monitor);
-        sensitive << clk.pos();
-        dont_initialize();
-    }
-
-};
-
 SC_MODULE(ECC_mon){
+
     sc_in<bool> clk;
     sc_in<bool> rst_n;
     sc_in<sc_uint<8>> P0;
@@ -2096,7 +1955,7 @@ SC_MODULE(ECC_mon){
             cout << sc_time_stamp() << "\t" << sc_bv<8>(P0) << "\t" << sc_bv<8>(P1) << "\t" << sc_bv<8>(P2) << "\t" << sc_bv<8>(P3) << endl;
         }
         else {
-            cout << sc_time_stamp() << "\t" << sc_bv<8>(P0) << "\t" << sc_bv<8>(P1) << "\t" << sc_bv<8>(P2) << "\t" << sc_bv<8>(P3) << endl;
+            // cout << sc_time_stamp() << "\t" << sc_bv<8>(P0) << "\t" << sc_bv<8>(P1) << "\t" << sc_bv<8>(P2) << "\t" << sc_bv<8>(P3) << endl;
         }
     }
   
@@ -2109,82 +1968,6 @@ SC_MODULE(ECC_mon){
 
 };
 
-int sc_main(int argc, char** argv){
 
-    sc_clock clk("CLOCK", clockcycle, SC_NS, 0.5, 0, SC_NS, true);
-    sc_signal<bool> rst_n;
 
-    // // for SCALAR_MULT
-    // sc_signal<bool> start;
-    // sc_signal<sc_biguint<8>> n;
-    // sc_signal<sc_biguint<17>> P;
-    // sc_signal<sc_biguint<8>> a, p;
-
-    // sc_signal<sc_biguint<17>> P_o;
-    // sc_signal<bool> finish;
-
-    // SCALAR_MULT sm0("SCALAR_MULT0");
-    // sm0.start(start);
-    // sm0.n(n);
-    // sm0.P(P);
-    // sm0.a(a);
-    // sm0.p(p);
-    // sm0.P_o(P_o);
-    // sm0.finish(finish);
-    // sm0.rst_n(rst_n);
-    // sm0.clk(clk);
-
-    // SCALAR_MULT_tb tb0("SCALAR_MULT_testbench");
-    // tb0.start(start);
-    // tb0.n(n);
-    // tb0.P(P);
-    // tb0.a(a);
-    // tb0.p(p);
-    // tb0.rst_n(rst_n);
-    // tb0.clk(clk);
-    // tb0.finish(finish);
-
-    // SCALAR_MULT_mon mon0("SCALAR_MULT_monitor");
-    // mon0.start(start);
-    // mon0.n(n);
-    // mon0.P(P);
-    // mon0.a(a);
-    // mon0.p(p);
-    // mon0.P_o(P_o);
-    // mon0.finish(finish);
-    // mon0.rst_n(rst_n);
-    // mon0.clk(clk);
-
-    // for ECC
-    sc_signal<sc_uint<8>> P0;
-    sc_signal<sc_uint<8>> P1;
-    sc_signal<sc_uint<8>> P2;
-    sc_signal<sc_uint<8>> P3;
-
-    ECC ecc0("ECC0");
-    ecc0.P0(P0);
-    ecc0.P1(P1);
-    ecc0.P2(P2);
-    ecc0.P3(P3);
-    ecc0.rst_n(rst_n);
-    ecc0.clk(clk);
-
-    ECC_tb tb0("ECC_testbench");
-    tb0.P0(P0);
-    tb0.P1(P1);
-    tb0.rst_n(rst_n);
-    tb0.clk(clk);
-    tb0.valid(P3);
-
-    ECC_mon mon0("ECC_monitor");
-    mon0.P0(P0);
-    mon0.P1(P1);
-    mon0.P2(P2);
-    mon0.P3(P3);
-    mon0.rst_n(rst_n);
-    mon0.clk(clk);
-
-    sc_start(maxtime, SC_NS);
-
-    return 0;
-};
+#endif

@@ -927,6 +927,50 @@ SC_MODULE(CORE_tb){
 
 };
 
+SC_MODULE(PA_tb){
+
+    sc_in<bool> clk;
+    sc_in<bool> finish;
+    sc_out<bool> rst_n;
+    sc_out<bool> start;
+    sc_out<sc_biguint<17>> P, Q;
+    sc_out<sc_biguint<8>> a, p;
+
+    void reset() {
+        rst_n.write(true);
+        wait();
+        rst_n.write(false);
+        start.write(0);
+        P.write(0);
+        Q.write(0);
+        a.write(0);
+        p.write(0);
+        wait();
+        rst_n.write(true);
+        wait();
+    }
+
+    void tb_input() {
+        reset();
+        start.write(1);
+        P.write(59082);
+        Q.write(59082);
+        a.write(230);
+        p.write(27);
+        while (!finish.read()) {
+            wait();
+        }
+        wait();
+        sc_stop();
+    }
+
+    SC_CTOR(PA_tb) {
+        SC_THREAD(tb_input);
+        sensitive << clk.pos();
+    }
+
+};
+
 SC_MODULE(PE_mon){
     sc_in<bool> clk;
     sc_in<bool> a, b, p, m_pre, isMul, toMod, out;
@@ -992,6 +1036,34 @@ SC_MODULE(CORE_mon){
   
     SC_CTOR(CORE_mon) {
         cout << endl << "time\tstart\tmode\ta\t\tb\t\tp\t\tout\t\tfinish" << endl;
+        SC_METHOD(monitor);
+        sensitive << clk.pos();
+        dont_initialize();
+    }
+
+};
+
+SC_MODULE(PA_mon){
+    sc_in<bool> clk;
+    sc_in<bool> rst_n;
+    sc_in<bool> start;
+    sc_in<sc_biguint<17>> P, Q;
+    sc_in<sc_biguint<8>> a, p;
+    sc_in<sc_biguint<17>> P_o;
+    sc_in<bool> finish;
+
+    void monitor() {
+        if (rst_n == 0) cout << sc_time_stamp() << "\t" << "RESET" << endl;
+        else if (finish == 1) {
+            cout << sc_time_stamp() << "\t" << start << "\t" << sc_bv<17>(P) << "\t" << sc_bv<17>(Q) << "\t" << sc_bv<8>(a) << "\t" << sc_bv<8>(p) << "\t" << sc_bv<17>(P_o) << "\t" << finish << endl;
+        }
+        else {
+            // cout << sc_time_stamp() << "\t" << start << "\t" << sc_bv<17>(P) << "\t" << sc_bv<17>(Q) << "\t" << sc_bv<8>(a) << "\t" << sc_bv<8>(p) << "\t" << sc_bv<17>(P_o) << "\t" << finish << endl;
+        }
+    }
+  
+    SC_CTOR(PA_mon) {
+        cout << endl << "time\tstart\tP\t\t\tQ\t\t\ta\t\tp\t\tP_o\t\t\tfinish" << endl;
         SC_METHOD(monitor);
         sensitive << clk.pos();
         dont_initialize();
@@ -1077,44 +1149,84 @@ int sc_main(int argc, char** argv){
     // mon0.clk(clk);
     // mon0.rst_n(rst_n);
 
-    // for CORE
-    sc_signal<bool> start;
-    sc_signal<sc_uint<2>> mode; // 0: add, 1: mul, 2: inv
-    sc_signal<sc_biguint<8>> a, b, p;
-    sc_signal<sc_biguint<8>> out;
-    sc_signal<bool> finish;
+    // // for CORE
+    // sc_signal<bool> start;
+    // sc_signal<sc_uint<2>> mode; // 0: add, 1: mul, 2: inv
+    // sc_signal<sc_biguint<8>> a, b, p;
+    // sc_signal<sc_biguint<8>> out;
+    // sc_signal<bool> finish;
     
-    CORE core0("CORE0");
-    core0.start(start);
-    core0.mode(mode);
-    core0.a(a);
-    core0.b(b);
-    core0.p(p);
-    core0.out(out);
-    core0.finish(finish);
-    core0.rst_n(rst_n);
-    core0.clk(clk);
+    // CORE core0("CORE0");
+    // core0.start(start);
+    // core0.mode(mode);
+    // core0.a(a);
+    // core0.b(b);
+    // core0.p(p);
+    // core0.out(out);
+    // core0.finish(finish);
+    // core0.rst_n(rst_n);
+    // core0.clk(clk);
 
-    CORE_tb tb0("CORE_testbench");
-    tb0.start(start);
-    tb0.mode(mode);
-    tb0.a(a);
-    tb0.b(b);
-    tb0.p(p);
-    tb0.rst_n(rst_n);
-    tb0.clk(clk);
-    tb0.finish(finish);
+    // CORE_tb tb0("CORE_testbench");
+    // tb0.start(start);
+    // tb0.mode(mode);
+    // tb0.a(a);
+    // tb0.b(b);
+    // tb0.p(p);
+    // tb0.rst_n(rst_n);
+    // tb0.clk(clk);
+    // tb0.finish(finish);
 
-    CORE_mon mon0("CORE_monitor");
-    mon0.start(start);
-    mon0.mode(mode);
-    mon0.a(a);
-    mon0.b(b);
-    mon0.p(p);
-    mon0.out(out);
-    mon0.finish(finish);
-    mon0.clk(clk);
-    mon0.rst_n(rst_n);
+    // CORE_mon mon0("CORE_monitor");
+    // mon0.start(start);
+    // mon0.mode(mode);
+    // mon0.a(a);
+    // mon0.b(b);
+    // mon0.p(p);
+    // mon0.out(out);
+    // mon0.finish(finish);
+    // mon0.clk(clk);
+    // mon0.rst_n(rst_n);
+
+    // // for PA
+    // sc_signal<bool> start;
+    // sc_signal<sc_biguint<17>> P, Q;
+    // sc_signal<sc_biguint<8>> a, p;
+
+    // sc_signal<sc_biguint<17>> P_o;
+    // sc_signal<bool> finish;
+
+    // PA pa0("PA0");
+    // pa0.start(start);
+    // pa0.P(P);
+    // pa0.Q(Q);
+    // pa0.a(a);
+    // pa0.p(p);
+    // pa0.P_o(P_o);
+    // pa0.finish(finish);
+    // pa0.rst_n(rst_n);
+    // pa0.clk(clk);
+
+    // PA_tb tb0("PA_testbench");
+    // tb0.start(start);
+    // tb0.P(P);
+    // tb0.Q(Q);
+    // tb0.a(a);
+    // tb0.p(p);
+    // tb0.rst_n(rst_n);
+    // tb0.clk(clk);
+    // tb0.finish(finish);
+
+    // PA_mon mon0("PA_monitor");
+    // mon0.start(start);
+    // mon0.P(P);
+    // mon0.Q(Q);
+    // mon0.a(a);
+    // mon0.p(p);
+    // mon0.P_o(P_o);
+    // mon0.finish(finish);
+    // mon0.rst_n(rst_n);
+    // mon0.clk(clk);
 
     sc_start(maxtime, SC_NS);
 

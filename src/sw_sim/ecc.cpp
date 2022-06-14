@@ -145,10 +145,14 @@ point scalar_multiplication (int n, point P, bool *a, bool *p, int bitnum) {
         if (n % 2 == 1) {
             point tmp1 = point_addition(R, A, a, p, bitnum);
             R = tmp1;
+            cout << "tmp1: ";
+            print(tmp1, bitnum);
         }
-        n >>= 1;
         point tmp2 = point_doubling(A, a, p, bitnum);
         A = tmp2;
+        cout << "tmp2: ";
+        print(tmp2, bitnum);
+        n >>= 1;
     }
     return R;
 }
@@ -220,36 +224,37 @@ int main(void) {
     // cout << "POINT ADD" << endl;
     // point P_add = point_addition(P, P, a, poly, bitnum);
     // print(P_add, bitnum);
-    cout << "POINT ADD" << endl;
-    point P_add = point_addition(P, Q, a, poly, bitnum);
-    print(P_add, bitnum);
-    // cout << "POINT SCALARMULT" << endl;
-    // point P_sca = scalar_multiplication(10, P, a, poly, bitnum);
-    // print(P_sca, bitnum);
+    // cout << "POINT ADD" << endl;
+    // point P_add = point_addition(P, Q, a, poly, bitnum);
+    // print(P_add, bitnum);
+    cout << "POINT SCALARMULT" << endl;
+    point P_sca = scalar_multiplication(3, P, a, poly, bitnum);
+    print(P_sca, bitnum);
+    // cout << P_sca.is_inf << endl;
 
     // 密鑰交換
-    int ka = 22; // bitnum-bit
-    int kb = 77; // bitnum-bit
-    cout << endl;
-    cout << "ECC GF(2^" << bitnum << ")" << endl;
-    cout << "y^3 + xy = x^3 + ax^2 + b" << endl;
-    cout << "Px ";
-    print(P.x, bitnum);
-    cout << "Py ";
-    print(P.y, bitnum);
-    cout << "Assume Alice choose " << ka << " as private key and send ka*P to Bob as Alice's public key." << endl;
-    cout << "Assume Bob choose " << kb << " as private key and send kb*P to Alice as Bob's public key." << endl;
-    cout << "Bob received ka*P and apply kb*(ka*P), Alice received kb*P and apply ka*(kb*P)" << endl;
-    point ka_P = scalar_multiplication(ka, P, a, poly, bitnum);
-    point kb_P = scalar_multiplication(kb, P, a, poly, bitnum);
-    point kb_ka_P = scalar_multiplication(kb, ka_P, a, poly, bitnum);
-    point ka_kb_P = scalar_multiplication(ka, kb_P, a, poly, bitnum);
-    print(kb_ka_P, bitnum);
-    print(ka_kb_P, bitnum);
-    if (equal(kb_ka_P, ka_kb_P, bitnum)) {
-        cout << "Success!!" << endl;
-    }
-    else {
-        cout << "Fail..." << endl;
-    }
+    // int ka = 22; // bitnum-bit
+    // int kb = 77; // bitnum-bit
+    // cout << endl;
+    // cout << "ECC GF(2^" << bitnum << ")" << endl;
+    // cout << "y^3 + xy = x^3 + ax^2 + b" << endl;
+    // cout << "Px ";
+    // print(P.x, bitnum);
+    // cout << "Py ";
+    // print(P.y, bitnum);
+    // cout << "Assume Alice choose " << ka << " as private key and send ka*P to Bob as Alice's public key." << endl;
+    // cout << "Assume Bob choose " << kb << " as private key and send kb*P to Alice as Bob's public key." << endl;
+    // cout << "Bob received ka*P and apply kb*(ka*P), Alice received kb*P and apply ka*(kb*P)" << endl;
+    // point ka_P = scalar_multiplication(ka, P, a, poly, bitnum);
+    // point kb_P = scalar_multiplication(kb, P, a, poly, bitnum);
+    // point kb_ka_P = scalar_multiplication(kb, ka_P, a, poly, bitnum);
+    // point ka_kb_P = scalar_multiplication(ka, kb_P, a, poly, bitnum);
+    // print(kb_ka_P, bitnum);
+    // print(ka_kb_P, bitnum);
+    // if (equal(kb_ka_P, ka_kb_P, bitnum)) {
+    //     cout << "Success!!" << endl;
+    // }
+    // else {
+    //     cout << "Fail..." << endl;
+    // }
 }
