@@ -1,0 +1,821 @@
+Start testing: Jun 11 02:28 CST
+----------------------------------------------------------
+1/33 Testing: examples/sysc/2.1/dpipe/dpipe
+1/33 Test: examples/sysc/2.1/dpipe/dpipe
+Command: "/usr/local/Cellar/cmake/3.22.3/bin/cmake" "-DTEST_EXE=/Users/fanyungwei/Documents/MyDoc/senior_2022/Hardware_Software_Codesign/HWSW_Codesign_ECC/src/systemc-2.3.3/build/examples/sysc/2.1/dpipe/dpipe" "-DTEST_DIR=/Users/fanyungwei/Documents/MyDoc/senior_2022/Hardware_Software_Codesign/HWSW_Codesign_ECC/src/systemc-2.3.3/build/examples/sysc/2.1/dpipe" "-DTEST_INPUT=" "-DTEST_GOLDEN=/Users/fanyungwei/Documents/MyDoc/senior_2022/Hardware_Software_Codesign/HWSW_Codesign_ECC/src/systemc-2.3.3/examples/sysc/2.1/dpipe/golden.log" "-DTEST_FILTER=" "-DDIFF_COMMAND=/usr/bin/diff" "-DDIFF_OPTIONS=-u" "-P" "/Users/fanyungwei/Documents/MyDoc/senior_2022/Hardware_Software_Codesign/HWSW_Codesign_ECC/src/systemc-2.3.3/cmake/run_test.cmake"
+Directory: /Users/fanyungwei/Documents/MyDoc/senior_2022/Hardware_Software_Codesign/HWSW_Codesign_ECC/src/systemc-2.3.3/build/examples/sysc/2.1/dpipe
+"examples/sysc/2.1/dpipe/dpipe" start time: Jun 11 02:28 CST
+Output:
+----------------------------------------------------------
+CMake Deprecation Warning at /Users/fanyungwei/Documents/MyDoc/senior_2022/Hardware_Software_Codesign/HWSW_Codesign_ECC/src/systemc-2.3.3/cmake/run_test.cmake:41 (cmake_minimum_required):
+  Compatibility with CMake < 2.8.12 will be removed from a future version of
+  CMake.
+
+  Update the VERSION argument <min> value or use a ...<max> suffix to tell
+  CMake that the project does not need compatibility with older versions.
+
+
+DIFF_EXIT_CODE = 0
+OK
+<end of output>
+Test time =   0.38 sec
+----------------------------------------------------------
+Test Passed.
+"examples/sysc/2.1/dpipe/dpipe" end time: Jun 11 02:28 CST
+"examples/sysc/2.1/dpipe/dpipe" time elapsed: 00:00:00
+----------------------------------------------------------
+
+2/33 Testing: examples/sysc/2.1/forkjoin/forkjoin
+2/33 Test: examples/sysc/2.1/forkjoin/forkjoin
+Command: "/usr/local/Cellar/cmake/3.22.3/bin/cmake" "-DTEST_EXE=/Users/fanyungwei/Documents/MyDoc/senior_2022/Hardware_Software_Codesign/HWSW_Codesign_ECC/src/systemc-2.3.3/build/examples/sysc/2.1/forkjoin/forkjoin" "-DTEST_DIR=/Users/fanyungwei/Documents/MyDoc/senior_2022/Hardware_Software_Codesign/HWSW_Codesign_ECC/src/systemc-2.3.3/build/examples/sysc/2.1/forkjoin" "-DTEST_INPUT=" "-DTEST_GOLDEN=/Users/fanyungwei/Documents/MyDoc/senior_2022/Hardware_Software_Codesign/HWSW_Codesign_ECC/src/systemc-2.3.3/examples/sysc/2.1/forkjoin/golden.log" "-DTEST_FILTER=" "-DDIFF_COMMAND=/usr/bin/diff" "-DDIFF_OPTIONS=-u" "-P" "/Users/fanyungwei/Documents/MyDoc/senior_2022/Hardware_Software_Codesign/HWSW_Codesign_ECC/src/systemc-2.3.3/cmake/run_test.cmake"
+Directory: /Users/fanyungwei/Documents/MyDoc/senior_2022/Hardware_Software_Codesign/HWSW_Codesign_ECC/src/systemc-2.3.3/build/examples/sysc/2.1/forkjoin
+"examples/sysc/2.1/forkjoin/forkjoin" start time: Jun 11 02:28 CST
+Output:
+----------------------------------------------------------
+CMake Deprecation Warning at /Users/fanyungwei/Documents/MyDoc/senior_2022/Hardware_Software_Codesign/HWSW_Codesign_ECC/src/systemc-2.3.3/cmake/run_test.cmake:41 (cmake_minimum_required):
+  Compatibility with CMake < 2.8.12 will be removed from a future version of
+  CMake.
+
+  Update the VERSION argument <min> value or use a ...<max> suffix to tell
+  CMake that the project does not need compatibility with older versions.
+
+
+DIFF_EXIT_CODE = 0
+OK
+<end of output>
+Test time =   0.25 sec
+----------------------------------------------------------
+Test Passed.
+"examples/sysc/2.1/forkjoin/forkjoin" end time: Jun 11 02:28 CST
+"examples/sysc/2.1/forkjoin/forkjoin" time elapsed: 00:00:00
+----------------------------------------------------------
+
+3/33 Testing: examples/sysc/2.1/reset_signal_is/reset_signal_is
+3/33 Test: examples/sysc/2.1/reset_signal_is/reset_signal_is
+Command: "/usr/local/Cellar/cmake/3.22.3/bin/cmake" "-DTEST_EXE=/Users/fanyungwei/Documents/MyDoc/senior_2022/Hardware_Software_Codesign/HWSW_Codesign_ECC/src/systemc-2.3.3/build/examples/sysc/2.1/reset_signal_is/reset_signal_is" "-DTEST_DIR=/Users/fanyungwei/Documents/MyDoc/senior_2022/Hardware_Software_Codesign/HWSW_Codesign_ECC/src/systemc-2.3.3/build/examples/sysc/2.1/reset_signal_is" "-DTEST_INPUT=" "-DTEST_GOLDEN=/Users/fanyungwei/Documents/MyDoc/senior_2022/Hardware_Software_Codesign/HWSW_Codesign_ECC/src/systemc-2.3.3/examples/sysc/2.1/reset_signal_is/golden.log" "-DTEST_FILTER=" "-DDIFF_COMMAND=/usr/bin/diff" "-DDIFF_OPTIONS=-u" "-P" "/Users/fanyungwei/Documents/MyDoc/senior_2022/Hardware_Software_Codesign/HWSW_Codesign_ECC/src/systemc-2.3.3/cmake/run_test.cmake"
+Directory: /Users/fanyungwei/Documents/MyDoc/senior_2022/Hardware_Software_Codesign/HWSW_Codesign_ECC/src/systemc-2.3.3/build/examples/sysc/2.1/reset_signal_is
+"examples/sysc/2.1/reset_signal_is/reset_signal_is" start time: Jun 11 02:28 CST
+Output:
+----------------------------------------------------------
+CMake Deprecation Warning at /Users/fanyungwei/Documents/MyDoc/senior_2022/Hardware_Software_Codesign/HWSW_Codesign_ECC/src/systemc-2.3.3/cmake/run_test.cmake:41 (cmake_minimum_required):
+  Compatibility with CMake < 2.8.12 will be removed from a future version of
+  CMake.
+
+  Update the VERSION argument <min> value or use a ...<max> suffix to tell
+  CMake that the project does not need compatibility with older versions.
+
+
+DIFF_EXIT_CODE = 0
+OK
+<end of output>
+Test time =   0.25 sec
+----------------------------------------------------------
+Test Passed.
+"examples/sysc/2.1/reset_signal_is/reset_signal_is" end time: Jun 11 02:28 CST
+"examples/sysc/2.1/reset_signal_is/reset_signal_is" time elapsed: 00:00:00
+----------------------------------------------------------
+
+4/33 Testing: examples/sysc/2.1/sc_export/sc_export
+4/33 Test: examples/sysc/2.1/sc_export/sc_export
+Command: "/usr/local/Cellar/cmake/3.22.3/bin/cmake" "-DTEST_EXE=/Users/fanyungwei/Documents/MyDoc/senior_2022/Hardware_Software_Codesign/HWSW_Codesign_ECC/src/systemc-2.3.3/build/examples/sysc/2.1/sc_export/sc_export" "-DTEST_DIR=/Users/fanyungwei/Documents/MyDoc/senior_2022/Hardware_Software_Codesign/HWSW_Codesign_ECC/src/systemc-2.3.3/build/examples/sysc/2.1/sc_export" "-DTEST_INPUT=" "-DTEST_GOLDEN=/Users/fanyungwei/Documents/MyDoc/senior_2022/Hardware_Software_Codesign/HWSW_Codesign_ECC/src/systemc-2.3.3/examples/sysc/2.1/sc_export/golden.log" "-DTEST_FILTER=" "-DDIFF_COMMAND=/usr/bin/diff" "-DDIFF_OPTIONS=-u" "-P" "/Users/fanyungwei/Documents/MyDoc/senior_2022/Hardware_Software_Codesign/HWSW_Codesign_ECC/src/systemc-2.3.3/cmake/run_test.cmake"
+Directory: /Users/fanyungwei/Documents/MyDoc/senior_2022/Hardware_Software_Codesign/HWSW_Codesign_ECC/src/systemc-2.3.3/build/examples/sysc/2.1/sc_export
+"examples/sysc/2.1/sc_export/sc_export" start time: Jun 11 02:28 CST
+Output:
+----------------------------------------------------------
+CMake Deprecation Warning at /Users/fanyungwei/Documents/MyDoc/senior_2022/Hardware_Software_Codesign/HWSW_Codesign_ECC/src/systemc-2.3.3/cmake/run_test.cmake:41 (cmake_minimum_required):
+  Compatibility with CMake < 2.8.12 will be removed from a future version of
+  CMake.
+
+  Update the VERSION argument <min> value or use a ...<max> suffix to tell
+  CMake that the project does not need compatibility with older versions.
+
+
+DIFF_EXIT_CODE = 0
+OK
+<end of output>
+Test time =   0.25 sec
+----------------------------------------------------------
+Test Passed.
+"examples/sysc/2.1/sc_export/sc_export" end time: Jun 11 02:28 CST
+"examples/sysc/2.1/sc_export/sc_export" time elapsed: 00:00:00
+----------------------------------------------------------
+
+5/33 Testing: examples/sysc/2.1/sc_report/sc_report
+5/33 Test: examples/sysc/2.1/sc_report/sc_report
+Command: "/usr/local/Cellar/cmake/3.22.3/bin/cmake" "-DTEST_EXE=/Users/fanyungwei/Documents/MyDoc/senior_2022/Hardware_Software_Codesign/HWSW_Codesign_ECC/src/systemc-2.3.3/build/examples/sysc/2.1/sc_report/sc_report" "-DTEST_DIR=/Users/fanyungwei/Documents/MyDoc/senior_2022/Hardware_Software_Codesign/HWSW_Codesign_ECC/src/systemc-2.3.3/build/examples/sysc/2.1/sc_report" "-DTEST_INPUT=" "-DTEST_GOLDEN=/Users/fanyungwei/Documents/MyDoc/senior_2022/Hardware_Software_Codesign/HWSW_Codesign_ECC/src/systemc-2.3.3/examples/sysc/2.1/sc_report/golden.log" "-DTEST_FILTER=" "-DDIFF_COMMAND=/usr/bin/diff" "-DDIFF_OPTIONS=-u" "-P" "/Users/fanyungwei/Documents/MyDoc/senior_2022/Hardware_Software_Codesign/HWSW_Codesign_ECC/src/systemc-2.3.3/cmake/run_test.cmake"
+Directory: /Users/fanyungwei/Documents/MyDoc/senior_2022/Hardware_Software_Codesign/HWSW_Codesign_ECC/src/systemc-2.3.3/build/examples/sysc/2.1/sc_report
+"examples/sysc/2.1/sc_report/sc_report" start time: Jun 11 02:28 CST
+Output:
+----------------------------------------------------------
+CMake Deprecation Warning at /Users/fanyungwei/Documents/MyDoc/senior_2022/Hardware_Software_Codesign/HWSW_Codesign_ECC/src/systemc-2.3.3/cmake/run_test.cmake:41 (cmake_minimum_required):
+  Compatibility with CMake < 2.8.12 will be removed from a future version of
+  CMake.
+
+  Update the VERSION argument <min> value or use a ...<max> suffix to tell
+  CMake that the project does not need compatibility with older versions.
+
+
+DIFF_EXIT_CODE = 0
+OK
+<end of output>
+Test time =   0.27 sec
+----------------------------------------------------------
+Test Passed.
+"examples/sysc/2.1/sc_report/sc_report" end time: Jun 11 02:28 CST
+"examples/sysc/2.1/sc_report/sc_report" time elapsed: 00:00:00
+----------------------------------------------------------
+
+6/33 Testing: examples/sysc/2.1/scx_barrier/scx_barrier
+6/33 Test: examples/sysc/2.1/scx_barrier/scx_barrier
+Command: "/usr/local/Cellar/cmake/3.22.3/bin/cmake" "-DTEST_EXE=/Users/fanyungwei/Documents/MyDoc/senior_2022/Hardware_Software_Codesign/HWSW_Codesign_ECC/src/systemc-2.3.3/build/examples/sysc/2.1/scx_barrier/scx_barrier" "-DTEST_DIR=/Users/fanyungwei/Documents/MyDoc/senior_2022/Hardware_Software_Codesign/HWSW_Codesign_ECC/src/systemc-2.3.3/build/examples/sysc/2.1/scx_barrier" "-DTEST_INPUT=" "-DTEST_GOLDEN=/Users/fanyungwei/Documents/MyDoc/senior_2022/Hardware_Software_Codesign/HWSW_Codesign_ECC/src/systemc-2.3.3/examples/sysc/2.1/scx_barrier/golden.log" "-DTEST_FILTER=" "-DDIFF_COMMAND=/usr/bin/diff" "-DDIFF_OPTIONS=-u" "-P" "/Users/fanyungwei/Documents/MyDoc/senior_2022/Hardware_Software_Codesign/HWSW_Codesign_ECC/src/systemc-2.3.3/cmake/run_test.cmake"
+Directory: /Users/fanyungwei/Documents/MyDoc/senior_2022/Hardware_Software_Codesign/HWSW_Codesign_ECC/src/systemc-2.3.3/build/examples/sysc/2.1/scx_barrier
+"examples/sysc/2.1/scx_barrier/scx_barrier" start time: Jun 11 02:28 CST
+Output:
+----------------------------------------------------------
+CMake Deprecation Warning at /Users/fanyungwei/Documents/MyDoc/senior_2022/Hardware_Software_Codesign/HWSW_Codesign_ECC/src/systemc-2.3.3/cmake/run_test.cmake:41 (cmake_minimum_required):
+  Compatibility with CMake < 2.8.12 will be removed from a future version of
+  CMake.
+
+  Update the VERSION argument <min> value or use a ...<max> suffix to tell
+  CMake that the project does not need compatibility with older versions.
+
+
+DIFF_EXIT_CODE = 0
+OK
+<end of output>
+Test time =   0.25 sec
+----------------------------------------------------------
+Test Passed.
+"examples/sysc/2.1/scx_barrier/scx_barrier" end time: Jun 11 02:28 CST
+"examples/sysc/2.1/scx_barrier/scx_barrier" time elapsed: 00:00:00
+----------------------------------------------------------
+
+7/33 Testing: examples/sysc/2.1/scx_mutex_w_policy/scx_mutex_w_policy
+7/33 Test: examples/sysc/2.1/scx_mutex_w_policy/scx_mutex_w_policy
+Command: "/usr/local/Cellar/cmake/3.22.3/bin/cmake" "-DTEST_EXE=/Users/fanyungwei/Documents/MyDoc/senior_2022/Hardware_Software_Codesign/HWSW_Codesign_ECC/src/systemc-2.3.3/build/examples/sysc/2.1/scx_mutex_w_policy/scx_mutex_w_policy" "-DTEST_DIR=/Users/fanyungwei/Documents/MyDoc/senior_2022/Hardware_Software_Codesign/HWSW_Codesign_ECC/src/systemc-2.3.3/build/examples/sysc/2.1/scx_mutex_w_policy" "-DTEST_INPUT=" "-DTEST_GOLDEN=/Users/fanyungwei/Documents/MyDoc/senior_2022/Hardware_Software_Codesign/HWSW_Codesign_ECC/src/systemc-2.3.3/examples/sysc/2.1/scx_mutex_w_policy/golden.log" "-DTEST_FILTER=" "-DDIFF_COMMAND=/usr/bin/diff" "-DDIFF_OPTIONS=-u" "-P" "/Users/fanyungwei/Documents/MyDoc/senior_2022/Hardware_Software_Codesign/HWSW_Codesign_ECC/src/systemc-2.3.3/cmake/run_test.cmake"
+Directory: /Users/fanyungwei/Documents/MyDoc/senior_2022/Hardware_Software_Codesign/HWSW_Codesign_ECC/src/systemc-2.3.3/build/examples/sysc/2.1/scx_mutex_w_policy
+"examples/sysc/2.1/scx_mutex_w_policy/scx_mutex_w_policy" start time: Jun 11 02:28 CST
+Output:
+----------------------------------------------------------
+CMake Deprecation Warning at /Users/fanyungwei/Documents/MyDoc/senior_2022/Hardware_Software_Codesign/HWSW_Codesign_ECC/src/systemc-2.3.3/cmake/run_test.cmake:41 (cmake_minimum_required):
+  Compatibility with CMake < 2.8.12 will be removed from a future version of
+  CMake.
+
+  Update the VERSION argument <min> value or use a ...<max> suffix to tell
+  CMake that the project does not need compatibility with older versions.
+
+
+DIFF_EXIT_CODE = 0
+OK
+<end of output>
+Test time =   0.25 sec
+----------------------------------------------------------
+Test Passed.
+"examples/sysc/2.1/scx_mutex_w_policy/scx_mutex_w_policy" end time: Jun 11 02:28 CST
+"examples/sysc/2.1/scx_mutex_w_policy/scx_mutex_w_policy" time elapsed: 00:00:00
+----------------------------------------------------------
+
+8/33 Testing: examples/sysc/2.1/specialized_signals/specialized_signals
+8/33 Test: examples/sysc/2.1/specialized_signals/specialized_signals
+Command: "/usr/local/Cellar/cmake/3.22.3/bin/cmake" "-DTEST_EXE=/Users/fanyungwei/Documents/MyDoc/senior_2022/Hardware_Software_Codesign/HWSW_Codesign_ECC/src/systemc-2.3.3/build/examples/sysc/2.1/specialized_signals/specialized_signals" "-DTEST_DIR=/Users/fanyungwei/Documents/MyDoc/senior_2022/Hardware_Software_Codesign/HWSW_Codesign_ECC/src/systemc-2.3.3/build/examples/sysc/2.1/specialized_signals" "-DTEST_INPUT=" "-DTEST_GOLDEN=/Users/fanyungwei/Documents/MyDoc/senior_2022/Hardware_Software_Codesign/HWSW_Codesign_ECC/src/systemc-2.3.3/examples/sysc/2.1/specialized_signals/golden.log" "-DTEST_FILTER=" "-DDIFF_COMMAND=/usr/bin/diff" "-DDIFF_OPTIONS=-u" "-P" "/Users/fanyungwei/Documents/MyDoc/senior_2022/Hardware_Software_Codesign/HWSW_Codesign_ECC/src/systemc-2.3.3/cmake/run_test.cmake"
+Directory: /Users/fanyungwei/Documents/MyDoc/senior_2022/Hardware_Software_Codesign/HWSW_Codesign_ECC/src/systemc-2.3.3/build/examples/sysc/2.1/specialized_signals
+"examples/sysc/2.1/specialized_signals/specialized_signals" start time: Jun 11 02:28 CST
+Output:
+----------------------------------------------------------
+CMake Deprecation Warning at /Users/fanyungwei/Documents/MyDoc/senior_2022/Hardware_Software_Codesign/HWSW_Codesign_ECC/src/systemc-2.3.3/cmake/run_test.cmake:41 (cmake_minimum_required):
+  Compatibility with CMake < 2.8.12 will be removed from a future version of
+  CMake.
+
+  Update the VERSION argument <min> value or use a ...<max> suffix to tell
+  CMake that the project does not need compatibility with older versions.
+
+
+DIFF_EXIT_CODE = 0
+OK
+<end of output>
+Test time =   0.25 sec
+----------------------------------------------------------
+Test Passed.
+"examples/sysc/2.1/specialized_signals/specialized_signals" end time: Jun 11 02:28 CST
+"examples/sysc/2.1/specialized_signals/specialized_signals" time elapsed: 00:00:00
+----------------------------------------------------------
+
+9/33 Testing: examples/sysc/2.3/sc_rvd/sc_rvd
+9/33 Test: examples/sysc/2.3/sc_rvd/sc_rvd
+Command: "/usr/local/Cellar/cmake/3.22.3/bin/cmake" "-DTEST_EXE=/Users/fanyungwei/Documents/MyDoc/senior_2022/Hardware_Software_Codesign/HWSW_Codesign_ECC/src/systemc-2.3.3/build/examples/sysc/2.3/sc_rvd/sc_rvd" "-DTEST_DIR=/Users/fanyungwei/Documents/MyDoc/senior_2022/Hardware_Software_Codesign/HWSW_Codesign_ECC/src/systemc-2.3.3/build/examples/sysc/2.3/sc_rvd" "-DTEST_INPUT=" "-DTEST_GOLDEN=/Users/fanyungwei/Documents/MyDoc/senior_2022/Hardware_Software_Codesign/HWSW_Codesign_ECC/src/systemc-2.3.3/examples/sysc/2.3/sc_rvd/golden.log" "-DTEST_FILTER=" "-DDIFF_COMMAND=/usr/bin/diff" "-DDIFF_OPTIONS=-u" "-P" "/Users/fanyungwei/Documents/MyDoc/senior_2022/Hardware_Software_Codesign/HWSW_Codesign_ECC/src/systemc-2.3.3/cmake/run_test.cmake"
+Directory: /Users/fanyungwei/Documents/MyDoc/senior_2022/Hardware_Software_Codesign/HWSW_Codesign_ECC/src/systemc-2.3.3/build/examples/sysc/2.3/sc_rvd
+"examples/sysc/2.3/sc_rvd/sc_rvd" start time: Jun 11 02:28 CST
+Output:
+----------------------------------------------------------
+CMake Deprecation Warning at /Users/fanyungwei/Documents/MyDoc/senior_2022/Hardware_Software_Codesign/HWSW_Codesign_ECC/src/systemc-2.3.3/cmake/run_test.cmake:41 (cmake_minimum_required):
+  Compatibility with CMake < 2.8.12 will be removed from a future version of
+  CMake.
+
+  Update the VERSION argument <min> value or use a ...<max> suffix to tell
+  CMake that the project does not need compatibility with older versions.
+
+
+DIFF_EXIT_CODE = 0
+OK
+<end of output>
+Test time =   0.25 sec
+----------------------------------------------------------
+Test Passed.
+"examples/sysc/2.3/sc_rvd/sc_rvd" end time: Jun 11 02:28 CST
+"examples/sysc/2.3/sc_rvd/sc_rvd" time elapsed: 00:00:00
+----------------------------------------------------------
+
+10/33 Testing: examples/sysc/2.3/sc_ttd/sc_ttd
+10/33 Test: examples/sysc/2.3/sc_ttd/sc_ttd
+Command: "/usr/local/Cellar/cmake/3.22.3/bin/cmake" "-DTEST_EXE=/Users/fanyungwei/Documents/MyDoc/senior_2022/Hardware_Software_Codesign/HWSW_Codesign_ECC/src/systemc-2.3.3/build/examples/sysc/2.3/sc_ttd/sc_ttd" "-DTEST_DIR=/Users/fanyungwei/Documents/MyDoc/senior_2022/Hardware_Software_Codesign/HWSW_Codesign_ECC/src/systemc-2.3.3/build/examples/sysc/2.3/sc_ttd" "-DTEST_INPUT=" "-DTEST_GOLDEN=/Users/fanyungwei/Documents/MyDoc/senior_2022/Hardware_Software_Codesign/HWSW_Codesign_ECC/src/systemc-2.3.3/examples/sysc/2.3/sc_ttd/golden.log" "-DTEST_FILTER=" "-DDIFF_COMMAND=/usr/bin/diff" "-DDIFF_OPTIONS=-u" "-P" "/Users/fanyungwei/Documents/MyDoc/senior_2022/Hardware_Software_Codesign/HWSW_Codesign_ECC/src/systemc-2.3.3/cmake/run_test.cmake"
+Directory: /Users/fanyungwei/Documents/MyDoc/senior_2022/Hardware_Software_Codesign/HWSW_Codesign_ECC/src/systemc-2.3.3/build/examples/sysc/2.3/sc_ttd
+"examples/sysc/2.3/sc_ttd/sc_ttd" start time: Jun 11 02:28 CST
+Output:
+----------------------------------------------------------
+CMake Deprecation Warning at /Users/fanyungwei/Documents/MyDoc/senior_2022/Hardware_Software_Codesign/HWSW_Codesign_ECC/src/systemc-2.3.3/cmake/run_test.cmake:41 (cmake_minimum_required):
+  Compatibility with CMake < 2.8.12 will be removed from a future version of
+  CMake.
+
+  Update the VERSION argument <min> value or use a ...<max> suffix to tell
+  CMake that the project does not need compatibility with older versions.
+
+
+DIFF_EXIT_CODE = 0
+OK
+<end of output>
+Test time =   0.26 sec
+----------------------------------------------------------
+Test Passed.
+"examples/sysc/2.3/sc_ttd/sc_ttd" end time: Jun 11 02:28 CST
+"examples/sysc/2.3/sc_ttd/sc_ttd" time elapsed: 00:00:00
+----------------------------------------------------------
+
+11/33 Testing: examples/sysc/2.3/simple_async/simple_async
+11/33 Test: examples/sysc/2.3/simple_async/simple_async
+Command: "/usr/local/Cellar/cmake/3.22.3/bin/cmake" "-DTEST_EXE=/Users/fanyungwei/Documents/MyDoc/senior_2022/Hardware_Software_Codesign/HWSW_Codesign_ECC/src/systemc-2.3.3/build/examples/sysc/2.3/simple_async/simple_async" "-DTEST_DIR=/Users/fanyungwei/Documents/MyDoc/senior_2022/Hardware_Software_Codesign/HWSW_Codesign_ECC/src/systemc-2.3.3/build/examples/sysc/2.3/simple_async" "-DTEST_INPUT=" "-DTEST_GOLDEN=/Users/fanyungwei/Documents/MyDoc/senior_2022/Hardware_Software_Codesign/HWSW_Codesign_ECC/src/systemc-2.3.3/examples/sysc/2.3/simple_async/golden.log" "-DTEST_FILTER=" "-DDIFF_COMMAND=/usr/bin/diff" "-DDIFF_OPTIONS=-u" "-P" "/Users/fanyungwei/Documents/MyDoc/senior_2022/Hardware_Software_Codesign/HWSW_Codesign_ECC/src/systemc-2.3.3/cmake/run_test.cmake"
+Directory: /Users/fanyungwei/Documents/MyDoc/senior_2022/Hardware_Software_Codesign/HWSW_Codesign_ECC/src/systemc-2.3.3/build/examples/sysc/2.3/simple_async
+"examples/sysc/2.3/simple_async/simple_async" start time: Jun 11 02:28 CST
+Output:
+----------------------------------------------------------
+CMake Deprecation Warning at /Users/fanyungwei/Documents/MyDoc/senior_2022/Hardware_Software_Codesign/HWSW_Codesign_ECC/src/systemc-2.3.3/cmake/run_test.cmake:41 (cmake_minimum_required):
+  Compatibility with CMake < 2.8.12 will be removed from a future version of
+  CMake.
+
+  Update the VERSION argument <min> value or use a ...<max> suffix to tell
+  CMake that the project does not need compatibility with older versions.
+
+
+DIFF_EXIT_CODE = 0
+OK
+<end of output>
+Test time =   1.65 sec
+----------------------------------------------------------
+Test Passed.
+"examples/sysc/2.3/simple_async/simple_async" end time: Jun 11 02:28 CST
+"examples/sysc/2.3/simple_async/simple_async" time elapsed: 00:00:01
+----------------------------------------------------------
+
+12/33 Testing: examples/sysc/fft/fft_flpt/fft_flpt
+12/33 Test: examples/sysc/fft/fft_flpt/fft_flpt
+Command: "/usr/local/Cellar/cmake/3.22.3/bin/cmake" "-DTEST_EXE=/Users/fanyungwei/Documents/MyDoc/senior_2022/Hardware_Software_Codesign/HWSW_Codesign_ECC/src/systemc-2.3.3/build/examples/sysc/fft/fft_flpt/fft_flpt" "-DTEST_DIR=/Users/fanyungwei/Documents/MyDoc/senior_2022/Hardware_Software_Codesign/HWSW_Codesign_ECC/src/systemc-2.3.3/build/examples/sysc/fft/fft_flpt" "-DTEST_INPUT=" "-DTEST_GOLDEN=/Users/fanyungwei/Documents/MyDoc/senior_2022/Hardware_Software_Codesign/HWSW_Codesign_ECC/src/systemc-2.3.3/examples/sysc/fft/fft_flpt/golden.log" "-DTEST_FILTER=" "-DDIFF_COMMAND=/usr/bin/diff" "-DDIFF_OPTIONS=-u" "-P" "/Users/fanyungwei/Documents/MyDoc/senior_2022/Hardware_Software_Codesign/HWSW_Codesign_ECC/src/systemc-2.3.3/cmake/run_test.cmake"
+Directory: /Users/fanyungwei/Documents/MyDoc/senior_2022/Hardware_Software_Codesign/HWSW_Codesign_ECC/src/systemc-2.3.3/build/examples/sysc/fft/fft_flpt
+"examples/sysc/fft/fft_flpt/fft_flpt" start time: Jun 11 02:28 CST
+Output:
+----------------------------------------------------------
+CMake Deprecation Warning at /Users/fanyungwei/Documents/MyDoc/senior_2022/Hardware_Software_Codesign/HWSW_Codesign_ECC/src/systemc-2.3.3/cmake/run_test.cmake:41 (cmake_minimum_required):
+  Compatibility with CMake < 2.8.12 will be removed from a future version of
+  CMake.
+
+  Update the VERSION argument <min> value or use a ...<max> suffix to tell
+  CMake that the project does not need compatibility with older versions.
+
+
+DIFF_EXIT_CODE = 0
+OK
+<end of output>
+Test time =   0.25 sec
+----------------------------------------------------------
+Test Passed.
+"examples/sysc/fft/fft_flpt/fft_flpt" end time: Jun 11 02:28 CST
+"examples/sysc/fft/fft_flpt/fft_flpt" time elapsed: 00:00:00
+----------------------------------------------------------
+
+13/33 Testing: examples/sysc/fft/fft_fxpt/fft_fxpt
+13/33 Test: examples/sysc/fft/fft_fxpt/fft_fxpt
+Command: "/usr/local/Cellar/cmake/3.22.3/bin/cmake" "-DTEST_EXE=/Users/fanyungwei/Documents/MyDoc/senior_2022/Hardware_Software_Codesign/HWSW_Codesign_ECC/src/systemc-2.3.3/build/examples/sysc/fft/fft_fxpt/fft_fxpt" "-DTEST_DIR=/Users/fanyungwei/Documents/MyDoc/senior_2022/Hardware_Software_Codesign/HWSW_Codesign_ECC/src/systemc-2.3.3/build/examples/sysc/fft/fft_fxpt" "-DTEST_INPUT=" "-DTEST_GOLDEN=/Users/fanyungwei/Documents/MyDoc/senior_2022/Hardware_Software_Codesign/HWSW_Codesign_ECC/src/systemc-2.3.3/examples/sysc/fft/fft_fxpt/golden.log" "-DTEST_FILTER=" "-DDIFF_COMMAND=/usr/bin/diff" "-DDIFF_OPTIONS=-u" "-P" "/Users/fanyungwei/Documents/MyDoc/senior_2022/Hardware_Software_Codesign/HWSW_Codesign_ECC/src/systemc-2.3.3/cmake/run_test.cmake"
+Directory: /Users/fanyungwei/Documents/MyDoc/senior_2022/Hardware_Software_Codesign/HWSW_Codesign_ECC/src/systemc-2.3.3/build/examples/sysc/fft/fft_fxpt
+"examples/sysc/fft/fft_fxpt/fft_fxpt" start time: Jun 11 02:28 CST
+Output:
+----------------------------------------------------------
+CMake Deprecation Warning at /Users/fanyungwei/Documents/MyDoc/senior_2022/Hardware_Software_Codesign/HWSW_Codesign_ECC/src/systemc-2.3.3/cmake/run_test.cmake:41 (cmake_minimum_required):
+  Compatibility with CMake < 2.8.12 will be removed from a future version of
+  CMake.
+
+  Update the VERSION argument <min> value or use a ...<max> suffix to tell
+  CMake that the project does not need compatibility with older versions.
+
+
+DIFF_EXIT_CODE = 0
+OK
+<end of output>
+Test time =   0.25 sec
+----------------------------------------------------------
+Test Passed.
+"examples/sysc/fft/fft_fxpt/fft_fxpt" end time: Jun 11 02:29 CST
+"examples/sysc/fft/fft_fxpt/fft_fxpt" time elapsed: 00:00:00
+----------------------------------------------------------
+
+14/33 Testing: examples/sysc/fir/fir
+14/33 Test: examples/sysc/fir/fir
+Command: "/usr/local/Cellar/cmake/3.22.3/bin/cmake" "-DTEST_EXE=/Users/fanyungwei/Documents/MyDoc/senior_2022/Hardware_Software_Codesign/HWSW_Codesign_ECC/src/systemc-2.3.3/build/examples/sysc/fir/fir" "-DTEST_DIR=/Users/fanyungwei/Documents/MyDoc/senior_2022/Hardware_Software_Codesign/HWSW_Codesign_ECC/src/systemc-2.3.3/build/examples/sysc/fir" "-DTEST_INPUT=" "-DTEST_GOLDEN=" "-DTEST_FILTER=" "-DDIFF_COMMAND=/usr/bin/diff" "-DDIFF_OPTIONS=-u" "-P" "/Users/fanyungwei/Documents/MyDoc/senior_2022/Hardware_Software_Codesign/HWSW_Codesign_ECC/src/systemc-2.3.3/cmake/run_test.cmake"
+Directory: /Users/fanyungwei/Documents/MyDoc/senior_2022/Hardware_Software_Codesign/HWSW_Codesign_ECC/src/systemc-2.3.3/build/examples/sysc/fir
+"examples/sysc/fir/fir" start time: Jun 11 02:29 CST
+Output:
+----------------------------------------------------------
+CMake Deprecation Warning at /Users/fanyungwei/Documents/MyDoc/senior_2022/Hardware_Software_Codesign/HWSW_Codesign_ECC/src/systemc-2.3.3/cmake/run_test.cmake:41 (cmake_minimum_required):
+  Compatibility with CMake < 2.8.12 will be removed from a future version of
+  CMake.
+
+  Update the VERSION argument <min> value or use a ...<max> suffix to tell
+  CMake that the project does not need compatibility with older versions.
+
+
+OK
+<end of output>
+Test time =   0.24 sec
+----------------------------------------------------------
+Test Passed.
+"examples/sysc/fir/fir" end time: Jun 11 02:29 CST
+"examples/sysc/fir/fir" time elapsed: 00:00:00
+----------------------------------------------------------
+
+15/33 Testing: examples/sysc/fir/fir_rtl
+15/33 Test: examples/sysc/fir/fir_rtl
+Command: "/usr/local/Cellar/cmake/3.22.3/bin/cmake" "-DTEST_EXE=/Users/fanyungwei/Documents/MyDoc/senior_2022/Hardware_Software_Codesign/HWSW_Codesign_ECC/src/systemc-2.3.3/build/examples/sysc/fir/fir_rtl" "-DTEST_DIR=/Users/fanyungwei/Documents/MyDoc/senior_2022/Hardware_Software_Codesign/HWSW_Codesign_ECC/src/systemc-2.3.3/build/examples/sysc/fir" "-DTEST_INPUT=" "-DTEST_GOLDEN=" "-DTEST_FILTER=" "-DDIFF_COMMAND=/usr/bin/diff" "-DDIFF_OPTIONS=-u" "-P" "/Users/fanyungwei/Documents/MyDoc/senior_2022/Hardware_Software_Codesign/HWSW_Codesign_ECC/src/systemc-2.3.3/cmake/run_test.cmake"
+Directory: /Users/fanyungwei/Documents/MyDoc/senior_2022/Hardware_Software_Codesign/HWSW_Codesign_ECC/src/systemc-2.3.3/build/examples/sysc/fir
+"examples/sysc/fir/fir_rtl" start time: Jun 11 02:29 CST
+Output:
+----------------------------------------------------------
+CMake Deprecation Warning at /Users/fanyungwei/Documents/MyDoc/senior_2022/Hardware_Software_Codesign/HWSW_Codesign_ECC/src/systemc-2.3.3/cmake/run_test.cmake:41 (cmake_minimum_required):
+  Compatibility with CMake < 2.8.12 will be removed from a future version of
+  CMake.
+
+  Update the VERSION argument <min> value or use a ...<max> suffix to tell
+  CMake that the project does not need compatibility with older versions.
+
+
+OK
+<end of output>
+Test time =   0.24 sec
+----------------------------------------------------------
+Test Passed.
+"examples/sysc/fir/fir_rtl" end time: Jun 11 02:29 CST
+"examples/sysc/fir/fir_rtl" time elapsed: 00:00:00
+----------------------------------------------------------
+
+16/33 Testing: examples/sysc/pipe/pipe
+16/33 Test: examples/sysc/pipe/pipe
+Command: "/usr/local/Cellar/cmake/3.22.3/bin/cmake" "-DTEST_EXE=/Users/fanyungwei/Documents/MyDoc/senior_2022/Hardware_Software_Codesign/HWSW_Codesign_ECC/src/systemc-2.3.3/build/examples/sysc/pipe/pipe" "-DTEST_DIR=/Users/fanyungwei/Documents/MyDoc/senior_2022/Hardware_Software_Codesign/HWSW_Codesign_ECC/src/systemc-2.3.3/build/examples/sysc/pipe" "-DTEST_INPUT=" "-DTEST_GOLDEN=" "-DTEST_FILTER=" "-DDIFF_COMMAND=/usr/bin/diff" "-DDIFF_OPTIONS=-u" "-P" "/Users/fanyungwei/Documents/MyDoc/senior_2022/Hardware_Software_Codesign/HWSW_Codesign_ECC/src/systemc-2.3.3/cmake/run_test.cmake"
+Directory: /Users/fanyungwei/Documents/MyDoc/senior_2022/Hardware_Software_Codesign/HWSW_Codesign_ECC/src/systemc-2.3.3/build/examples/sysc/pipe
+"examples/sysc/pipe/pipe" start time: Jun 11 02:29 CST
+Output:
+----------------------------------------------------------
+CMake Deprecation Warning at /Users/fanyungwei/Documents/MyDoc/senior_2022/Hardware_Software_Codesign/HWSW_Codesign_ECC/src/systemc-2.3.3/cmake/run_test.cmake:41 (cmake_minimum_required):
+  Compatibility with CMake < 2.8.12 will be removed from a future version of
+  CMake.
+
+  Update the VERSION argument <min> value or use a ...<max> suffix to tell
+  CMake that the project does not need compatibility with older versions.
+
+
+OK
+<end of output>
+Test time =   0.24 sec
+----------------------------------------------------------
+Test Passed.
+"examples/sysc/pipe/pipe" end time: Jun 11 02:29 CST
+"examples/sysc/pipe/pipe" time elapsed: 00:00:00
+----------------------------------------------------------
+
+17/33 Testing: examples/sysc/pkt_switch/pkt_switch
+17/33 Test: examples/sysc/pkt_switch/pkt_switch
+Command: "/usr/local/Cellar/cmake/3.22.3/bin/cmake" "-DTEST_EXE=/Users/fanyungwei/Documents/MyDoc/senior_2022/Hardware_Software_Codesign/HWSW_Codesign_ECC/src/systemc-2.3.3/build/examples/sysc/pkt_switch/pkt_switch" "-DTEST_DIR=/Users/fanyungwei/Documents/MyDoc/senior_2022/Hardware_Software_Codesign/HWSW_Codesign_ECC/src/systemc-2.3.3/build/examples/sysc/pkt_switch" "-DTEST_INPUT=" "-DTEST_GOLDEN=" "-DTEST_FILTER=" "-DDIFF_COMMAND=/usr/bin/diff" "-DDIFF_OPTIONS=-u" "-P" "/Users/fanyungwei/Documents/MyDoc/senior_2022/Hardware_Software_Codesign/HWSW_Codesign_ECC/src/systemc-2.3.3/cmake/run_test.cmake"
+Directory: /Users/fanyungwei/Documents/MyDoc/senior_2022/Hardware_Software_Codesign/HWSW_Codesign_ECC/src/systemc-2.3.3/build/examples/sysc/pkt_switch
+"examples/sysc/pkt_switch/pkt_switch" start time: Jun 11 02:29 CST
+Output:
+----------------------------------------------------------
+CMake Deprecation Warning at /Users/fanyungwei/Documents/MyDoc/senior_2022/Hardware_Software_Codesign/HWSW_Codesign_ECC/src/systemc-2.3.3/cmake/run_test.cmake:41 (cmake_minimum_required):
+  Compatibility with CMake < 2.8.12 will be removed from a future version of
+  CMake.
+
+  Update the VERSION argument <min> value or use a ...<max> suffix to tell
+  CMake that the project does not need compatibility with older versions.
+
+
+OK
+<end of output>
+Test time =   0.27 sec
+----------------------------------------------------------
+Test Passed.
+"examples/sysc/pkt_switch/pkt_switch" end time: Jun 11 02:29 CST
+"examples/sysc/pkt_switch/pkt_switch" time elapsed: 00:00:00
+----------------------------------------------------------
+
+18/33 Testing: examples/sysc/risc_cpu/risc_cpu
+18/33 Test: examples/sysc/risc_cpu/risc_cpu
+Command: "/usr/local/Cellar/cmake/3.22.3/bin/cmake" "-DTEST_EXE=/Users/fanyungwei/Documents/MyDoc/senior_2022/Hardware_Software_Codesign/HWSW_Codesign_ECC/src/systemc-2.3.3/build/examples/sysc/risc_cpu/risc_cpu" "-DTEST_DIR=/Users/fanyungwei/Documents/MyDoc/senior_2022/Hardware_Software_Codesign/HWSW_Codesign_ECC/src/systemc-2.3.3/build/examples/sysc/risc_cpu" "-DTEST_INPUT=" "-DTEST_GOLDEN=" "-DTEST_FILTER=" "-DDIFF_COMMAND=/usr/bin/diff" "-DDIFF_OPTIONS=-u" "-P" "/Users/fanyungwei/Documents/MyDoc/senior_2022/Hardware_Software_Codesign/HWSW_Codesign_ECC/src/systemc-2.3.3/cmake/run_test.cmake"
+Directory: /Users/fanyungwei/Documents/MyDoc/senior_2022/Hardware_Software_Codesign/HWSW_Codesign_ECC/src/systemc-2.3.3/build/examples/sysc/risc_cpu
+"examples/sysc/risc_cpu/risc_cpu" start time: Jun 11 02:29 CST
+Output:
+----------------------------------------------------------
+CMake Deprecation Warning at /Users/fanyungwei/Documents/MyDoc/senior_2022/Hardware_Software_Codesign/HWSW_Codesign_ECC/src/systemc-2.3.3/cmake/run_test.cmake:41 (cmake_minimum_required):
+  Compatibility with CMake < 2.8.12 will be removed from a future version of
+  CMake.
+
+  Update the VERSION argument <min> value or use a ...<max> suffix to tell
+  CMake that the project does not need compatibility with older versions.
+
+
+OK
+<end of output>
+Test time =   0.25 sec
+----------------------------------------------------------
+Test Passed.
+"examples/sysc/risc_cpu/risc_cpu" end time: Jun 11 02:29 CST
+"examples/sysc/risc_cpu/risc_cpu" time elapsed: 00:00:00
+----------------------------------------------------------
+
+19/33 Testing: examples/sysc/rsa/rsa
+19/33 Test: examples/sysc/rsa/rsa
+Command: "/usr/local/Cellar/cmake/3.22.3/bin/cmake" "-DTEST_EXE=/Users/fanyungwei/Documents/MyDoc/senior_2022/Hardware_Software_Codesign/HWSW_Codesign_ECC/src/systemc-2.3.3/build/examples/sysc/rsa/rsa" "-DTEST_DIR=/Users/fanyungwei/Documents/MyDoc/senior_2022/Hardware_Software_Codesign/HWSW_Codesign_ECC/src/systemc-2.3.3/build/examples/sysc/rsa" "-DTEST_INPUT=" "-DTEST_GOLDEN=" "-DTEST_FILTER=" "-DDIFF_COMMAND=/usr/bin/diff" "-DDIFF_OPTIONS=-u" "-P" "/Users/fanyungwei/Documents/MyDoc/senior_2022/Hardware_Software_Codesign/HWSW_Codesign_ECC/src/systemc-2.3.3/cmake/run_test.cmake"
+Directory: /Users/fanyungwei/Documents/MyDoc/senior_2022/Hardware_Software_Codesign/HWSW_Codesign_ECC/src/systemc-2.3.3/build/examples/sysc/rsa
+"examples/sysc/rsa/rsa" start time: Jun 11 02:29 CST
+Output:
+----------------------------------------------------------
+CMake Deprecation Warning at /Users/fanyungwei/Documents/MyDoc/senior_2022/Hardware_Software_Codesign/HWSW_Codesign_ECC/src/systemc-2.3.3/cmake/run_test.cmake:41 (cmake_minimum_required):
+  Compatibility with CMake < 2.8.12 will be removed from a future version of
+  CMake.
+
+  Update the VERSION argument <min> value or use a ...<max> suffix to tell
+  CMake that the project does not need compatibility with older versions.
+
+
+OK
+<end of output>
+Test time =   0.47 sec
+----------------------------------------------------------
+Test Passed.
+"examples/sysc/rsa/rsa" end time: Jun 11 02:29 CST
+"examples/sysc/rsa/rsa" time elapsed: 00:00:00
+----------------------------------------------------------
+
+20/33 Testing: examples/sysc/simple_bus/simple_bus
+20/33 Test: examples/sysc/simple_bus/simple_bus
+Command: "/usr/local/Cellar/cmake/3.22.3/bin/cmake" "-DTEST_EXE=/Users/fanyungwei/Documents/MyDoc/senior_2022/Hardware_Software_Codesign/HWSW_Codesign_ECC/src/systemc-2.3.3/build/examples/sysc/simple_bus/simple_bus" "-DTEST_DIR=/Users/fanyungwei/Documents/MyDoc/senior_2022/Hardware_Software_Codesign/HWSW_Codesign_ECC/src/systemc-2.3.3/build/examples/sysc/simple_bus" "-DTEST_INPUT=" "-DTEST_GOLDEN=/Users/fanyungwei/Documents/MyDoc/senior_2022/Hardware_Software_Codesign/HWSW_Codesign_ECC/src/systemc-2.3.3/examples/sysc/simple_bus/golden.log" "-DTEST_FILTER=" "-DDIFF_COMMAND=/usr/bin/diff" "-DDIFF_OPTIONS=-u" "-P" "/Users/fanyungwei/Documents/MyDoc/senior_2022/Hardware_Software_Codesign/HWSW_Codesign_ECC/src/systemc-2.3.3/cmake/run_test.cmake"
+Directory: /Users/fanyungwei/Documents/MyDoc/senior_2022/Hardware_Software_Codesign/HWSW_Codesign_ECC/src/systemc-2.3.3/build/examples/sysc/simple_bus
+"examples/sysc/simple_bus/simple_bus" start time: Jun 11 02:29 CST
+Output:
+----------------------------------------------------------
+CMake Deprecation Warning at /Users/fanyungwei/Documents/MyDoc/senior_2022/Hardware_Software_Codesign/HWSW_Codesign_ECC/src/systemc-2.3.3/cmake/run_test.cmake:41 (cmake_minimum_required):
+  Compatibility with CMake < 2.8.12 will be removed from a future version of
+  CMake.
+
+  Update the VERSION argument <min> value or use a ...<max> suffix to tell
+  CMake that the project does not need compatibility with older versions.
+
+
+DIFF_EXIT_CODE = 0
+OK
+<end of output>
+Test time =   0.27 sec
+----------------------------------------------------------
+Test Passed.
+"examples/sysc/simple_bus/simple_bus" end time: Jun 11 02:29 CST
+"examples/sysc/simple_bus/simple_bus" time elapsed: 00:00:00
+----------------------------------------------------------
+
+21/33 Testing: examples/sysc/simple_fifo/simple_fifo
+21/33 Test: examples/sysc/simple_fifo/simple_fifo
+Command: "/usr/local/Cellar/cmake/3.22.3/bin/cmake" "-DTEST_EXE=/Users/fanyungwei/Documents/MyDoc/senior_2022/Hardware_Software_Codesign/HWSW_Codesign_ECC/src/systemc-2.3.3/build/examples/sysc/simple_fifo/simple_fifo" "-DTEST_DIR=/Users/fanyungwei/Documents/MyDoc/senior_2022/Hardware_Software_Codesign/HWSW_Codesign_ECC/src/systemc-2.3.3/build/examples/sysc/simple_fifo" "-DTEST_INPUT=" "-DTEST_GOLDEN=/Users/fanyungwei/Documents/MyDoc/senior_2022/Hardware_Software_Codesign/HWSW_Codesign_ECC/src/systemc-2.3.3/examples/sysc/simple_fifo/golden.log" "-DTEST_FILTER=" "-DDIFF_COMMAND=/usr/bin/diff" "-DDIFF_OPTIONS=-u" "-P" "/Users/fanyungwei/Documents/MyDoc/senior_2022/Hardware_Software_Codesign/HWSW_Codesign_ECC/src/systemc-2.3.3/cmake/run_test.cmake"
+Directory: /Users/fanyungwei/Documents/MyDoc/senior_2022/Hardware_Software_Codesign/HWSW_Codesign_ECC/src/systemc-2.3.3/build/examples/sysc/simple_fifo
+"examples/sysc/simple_fifo/simple_fifo" start time: Jun 11 02:29 CST
+Output:
+----------------------------------------------------------
+CMake Deprecation Warning at /Users/fanyungwei/Documents/MyDoc/senior_2022/Hardware_Software_Codesign/HWSW_Codesign_ECC/src/systemc-2.3.3/cmake/run_test.cmake:41 (cmake_minimum_required):
+  Compatibility with CMake < 2.8.12 will be removed from a future version of
+  CMake.
+
+  Update the VERSION argument <min> value or use a ...<max> suffix to tell
+  CMake that the project does not need compatibility with older versions.
+
+
+DIFF_EXIT_CODE = 0
+OK
+<end of output>
+Test time =   0.24 sec
+----------------------------------------------------------
+Test Passed.
+"examples/sysc/simple_fifo/simple_fifo" end time: Jun 11 02:29 CST
+"examples/sysc/simple_fifo/simple_fifo" time elapsed: 00:00:00
+----------------------------------------------------------
+
+22/33 Testing: examples/sysc/simple_perf/simple_perf
+22/33 Test: examples/sysc/simple_perf/simple_perf
+Command: "/usr/local/Cellar/cmake/3.22.3/bin/cmake" "-DTEST_EXE=/Users/fanyungwei/Documents/MyDoc/senior_2022/Hardware_Software_Codesign/HWSW_Codesign_ECC/src/systemc-2.3.3/build/examples/sysc/simple_perf/simple_perf" "-DTEST_DIR=/Users/fanyungwei/Documents/MyDoc/senior_2022/Hardware_Software_Codesign/HWSW_Codesign_ECC/src/systemc-2.3.3/build/examples/sysc/simple_perf" "-DTEST_INPUT=" "-DTEST_GOLDEN=" "-DTEST_FILTER=" "-DDIFF_COMMAND=/usr/bin/diff" "-DDIFF_OPTIONS=-u" "-P" "/Users/fanyungwei/Documents/MyDoc/senior_2022/Hardware_Software_Codesign/HWSW_Codesign_ECC/src/systemc-2.3.3/cmake/run_test.cmake"
+Directory: /Users/fanyungwei/Documents/MyDoc/senior_2022/Hardware_Software_Codesign/HWSW_Codesign_ECC/src/systemc-2.3.3/build/examples/sysc/simple_perf
+"examples/sysc/simple_perf/simple_perf" start time: Jun 11 02:29 CST
+Output:
+----------------------------------------------------------
+CMake Deprecation Warning at /Users/fanyungwei/Documents/MyDoc/senior_2022/Hardware_Software_Codesign/HWSW_Codesign_ECC/src/systemc-2.3.3/cmake/run_test.cmake:41 (cmake_minimum_required):
+  Compatibility with CMake < 2.8.12 will be removed from a future version of
+  CMake.
+
+  Update the VERSION argument <min> value or use a ...<max> suffix to tell
+  CMake that the project does not need compatibility with older versions.
+
+
+OK
+<end of output>
+Test time =   0.31 sec
+----------------------------------------------------------
+Test Passed.
+"examples/sysc/simple_perf/simple_perf" end time: Jun 11 02:29 CST
+"examples/sysc/simple_perf/simple_perf" time elapsed: 00:00:00
+----------------------------------------------------------
+
+23/33 Testing: examples/tlm/at_1_phase/at_1_phase
+23/33 Test: examples/tlm/at_1_phase/at_1_phase
+Command: "/usr/local/Cellar/cmake/3.22.3/bin/cmake" "-DTEST_EXE=/Users/fanyungwei/Documents/MyDoc/senior_2022/Hardware_Software_Codesign/HWSW_Codesign_ECC/src/systemc-2.3.3/build/examples/tlm/at_1_phase/at_1_phase" "-DTEST_DIR=/Users/fanyungwei/Documents/MyDoc/senior_2022/Hardware_Software_Codesign/HWSW_Codesign_ECC/src/systemc-2.3.3/build/examples/tlm/at_1_phase" "-DTEST_INPUT=" "-DTEST_GOLDEN=/Users/fanyungwei/Documents/MyDoc/senior_2022/Hardware_Software_Codesign/HWSW_Codesign_ECC/src/systemc-2.3.3/examples/tlm/at_1_phase/results/expected.log" "-DTEST_FILTER=" "-DDIFF_COMMAND=/usr/bin/diff" "-DDIFF_OPTIONS=-u" "-P" "/Users/fanyungwei/Documents/MyDoc/senior_2022/Hardware_Software_Codesign/HWSW_Codesign_ECC/src/systemc-2.3.3/cmake/run_test.cmake"
+Directory: /Users/fanyungwei/Documents/MyDoc/senior_2022/Hardware_Software_Codesign/HWSW_Codesign_ECC/src/systemc-2.3.3/build/examples/tlm/at_1_phase
+"examples/tlm/at_1_phase/at_1_phase" start time: Jun 11 02:29 CST
+Output:
+----------------------------------------------------------
+CMake Deprecation Warning at /Users/fanyungwei/Documents/MyDoc/senior_2022/Hardware_Software_Codesign/HWSW_Codesign_ECC/src/systemc-2.3.3/cmake/run_test.cmake:41 (cmake_minimum_required):
+  Compatibility with CMake < 2.8.12 will be removed from a future version of
+  CMake.
+
+  Update the VERSION argument <min> value or use a ...<max> suffix to tell
+  CMake that the project does not need compatibility with older versions.
+
+
+DIFF_EXIT_CODE = 0
+OK
+<end of output>
+Test time =   0.28 sec
+----------------------------------------------------------
+Test Passed.
+"examples/tlm/at_1_phase/at_1_phase" end time: Jun 11 02:29 CST
+"examples/tlm/at_1_phase/at_1_phase" time elapsed: 00:00:00
+----------------------------------------------------------
+
+24/33 Testing: examples/tlm/at_2_phase/at_2_phase
+24/33 Test: examples/tlm/at_2_phase/at_2_phase
+Command: "/usr/local/Cellar/cmake/3.22.3/bin/cmake" "-DTEST_EXE=/Users/fanyungwei/Documents/MyDoc/senior_2022/Hardware_Software_Codesign/HWSW_Codesign_ECC/src/systemc-2.3.3/build/examples/tlm/at_2_phase/at_2_phase" "-DTEST_DIR=/Users/fanyungwei/Documents/MyDoc/senior_2022/Hardware_Software_Codesign/HWSW_Codesign_ECC/src/systemc-2.3.3/build/examples/tlm/at_2_phase" "-DTEST_INPUT=" "-DTEST_GOLDEN=/Users/fanyungwei/Documents/MyDoc/senior_2022/Hardware_Software_Codesign/HWSW_Codesign_ECC/src/systemc-2.3.3/examples/tlm/at_2_phase/results/expected.log" "-DTEST_FILTER=" "-DDIFF_COMMAND=/usr/bin/diff" "-DDIFF_OPTIONS=-u" "-P" "/Users/fanyungwei/Documents/MyDoc/senior_2022/Hardware_Software_Codesign/HWSW_Codesign_ECC/src/systemc-2.3.3/cmake/run_test.cmake"
+Directory: /Users/fanyungwei/Documents/MyDoc/senior_2022/Hardware_Software_Codesign/HWSW_Codesign_ECC/src/systemc-2.3.3/build/examples/tlm/at_2_phase
+"examples/tlm/at_2_phase/at_2_phase" start time: Jun 11 02:29 CST
+Output:
+----------------------------------------------------------
+CMake Deprecation Warning at /Users/fanyungwei/Documents/MyDoc/senior_2022/Hardware_Software_Codesign/HWSW_Codesign_ECC/src/systemc-2.3.3/cmake/run_test.cmake:41 (cmake_minimum_required):
+  Compatibility with CMake < 2.8.12 will be removed from a future version of
+  CMake.
+
+  Update the VERSION argument <min> value or use a ...<max> suffix to tell
+  CMake that the project does not need compatibility with older versions.
+
+
+DIFF_EXIT_CODE = 0
+OK
+<end of output>
+Test time =   0.30 sec
+----------------------------------------------------------
+Test Passed.
+"examples/tlm/at_2_phase/at_2_phase" end time: Jun 11 02:29 CST
+"examples/tlm/at_2_phase/at_2_phase" time elapsed: 00:00:00
+----------------------------------------------------------
+
+25/33 Testing: examples/tlm/at_4_phase/at_4_phase
+25/33 Test: examples/tlm/at_4_phase/at_4_phase
+Command: "/usr/local/Cellar/cmake/3.22.3/bin/cmake" "-DTEST_EXE=/Users/fanyungwei/Documents/MyDoc/senior_2022/Hardware_Software_Codesign/HWSW_Codesign_ECC/src/systemc-2.3.3/build/examples/tlm/at_4_phase/at_4_phase" "-DTEST_DIR=/Users/fanyungwei/Documents/MyDoc/senior_2022/Hardware_Software_Codesign/HWSW_Codesign_ECC/src/systemc-2.3.3/build/examples/tlm/at_4_phase" "-DTEST_INPUT=" "-DTEST_GOLDEN=/Users/fanyungwei/Documents/MyDoc/senior_2022/Hardware_Software_Codesign/HWSW_Codesign_ECC/src/systemc-2.3.3/examples/tlm/at_4_phase/results/expected.log" "-DTEST_FILTER=" "-DDIFF_COMMAND=/usr/bin/diff" "-DDIFF_OPTIONS=-u" "-P" "/Users/fanyungwei/Documents/MyDoc/senior_2022/Hardware_Software_Codesign/HWSW_Codesign_ECC/src/systemc-2.3.3/cmake/run_test.cmake"
+Directory: /Users/fanyungwei/Documents/MyDoc/senior_2022/Hardware_Software_Codesign/HWSW_Codesign_ECC/src/systemc-2.3.3/build/examples/tlm/at_4_phase
+"examples/tlm/at_4_phase/at_4_phase" start time: Jun 11 02:29 CST
+Output:
+----------------------------------------------------------
+CMake Deprecation Warning at /Users/fanyungwei/Documents/MyDoc/senior_2022/Hardware_Software_Codesign/HWSW_Codesign_ECC/src/systemc-2.3.3/cmake/run_test.cmake:41 (cmake_minimum_required):
+  Compatibility with CMake < 2.8.12 will be removed from a future version of
+  CMake.
+
+  Update the VERSION argument <min> value or use a ...<max> suffix to tell
+  CMake that the project does not need compatibility with older versions.
+
+
+DIFF_EXIT_CODE = 0
+OK
+<end of output>
+Test time =   0.30 sec
+----------------------------------------------------------
+Test Passed.
+"examples/tlm/at_4_phase/at_4_phase" end time: Jun 11 02:29 CST
+"examples/tlm/at_4_phase/at_4_phase" time elapsed: 00:00:00
+----------------------------------------------------------
+
+26/33 Testing: examples/tlm/at_extension_optional/at_extension_optional
+26/33 Test: examples/tlm/at_extension_optional/at_extension_optional
+Command: "/usr/local/Cellar/cmake/3.22.3/bin/cmake" "-DTEST_EXE=/Users/fanyungwei/Documents/MyDoc/senior_2022/Hardware_Software_Codesign/HWSW_Codesign_ECC/src/systemc-2.3.3/build/examples/tlm/at_extension_optional/at_extension_optional" "-DTEST_DIR=/Users/fanyungwei/Documents/MyDoc/senior_2022/Hardware_Software_Codesign/HWSW_Codesign_ECC/src/systemc-2.3.3/build/examples/tlm/at_extension_optional" "-DTEST_INPUT=" "-DTEST_GOLDEN=/Users/fanyungwei/Documents/MyDoc/senior_2022/Hardware_Software_Codesign/HWSW_Codesign_ECC/src/systemc-2.3.3/examples/tlm/at_extension_optional/results/expected.log" "-DTEST_FILTER=" "-DDIFF_COMMAND=/usr/bin/diff" "-DDIFF_OPTIONS=-u" "-P" "/Users/fanyungwei/Documents/MyDoc/senior_2022/Hardware_Software_Codesign/HWSW_Codesign_ECC/src/systemc-2.3.3/cmake/run_test.cmake"
+Directory: /Users/fanyungwei/Documents/MyDoc/senior_2022/Hardware_Software_Codesign/HWSW_Codesign_ECC/src/systemc-2.3.3/build/examples/tlm/at_extension_optional
+"examples/tlm/at_extension_optional/at_extension_optional" start time: Jun 11 02:29 CST
+Output:
+----------------------------------------------------------
+CMake Deprecation Warning at /Users/fanyungwei/Documents/MyDoc/senior_2022/Hardware_Software_Codesign/HWSW_Codesign_ECC/src/systemc-2.3.3/cmake/run_test.cmake:41 (cmake_minimum_required):
+  Compatibility with CMake < 2.8.12 will be removed from a future version of
+  CMake.
+
+  Update the VERSION argument <min> value or use a ...<max> suffix to tell
+  CMake that the project does not need compatibility with older versions.
+
+
+DIFF_EXIT_CODE = 0
+OK
+<end of output>
+Test time =   0.31 sec
+----------------------------------------------------------
+Test Passed.
+"examples/tlm/at_extension_optional/at_extension_optional" end time: Jun 11 02:29 CST
+"examples/tlm/at_extension_optional/at_extension_optional" time elapsed: 00:00:00
+----------------------------------------------------------
+
+27/33 Testing: examples/tlm/at_mixed_targets/at_mixed_targets
+27/33 Test: examples/tlm/at_mixed_targets/at_mixed_targets
+Command: "/usr/local/Cellar/cmake/3.22.3/bin/cmake" "-DTEST_EXE=/Users/fanyungwei/Documents/MyDoc/senior_2022/Hardware_Software_Codesign/HWSW_Codesign_ECC/src/systemc-2.3.3/build/examples/tlm/at_mixed_targets/at_mixed_targets" "-DTEST_DIR=/Users/fanyungwei/Documents/MyDoc/senior_2022/Hardware_Software_Codesign/HWSW_Codesign_ECC/src/systemc-2.3.3/build/examples/tlm/at_mixed_targets" "-DTEST_INPUT=" "-DTEST_GOLDEN=/Users/fanyungwei/Documents/MyDoc/senior_2022/Hardware_Software_Codesign/HWSW_Codesign_ECC/src/systemc-2.3.3/examples/tlm/at_mixed_targets/results/expected.log" "-DTEST_FILTER=" "-DDIFF_COMMAND=/usr/bin/diff" "-DDIFF_OPTIONS=-u" "-P" "/Users/fanyungwei/Documents/MyDoc/senior_2022/Hardware_Software_Codesign/HWSW_Codesign_ECC/src/systemc-2.3.3/cmake/run_test.cmake"
+Directory: /Users/fanyungwei/Documents/MyDoc/senior_2022/Hardware_Software_Codesign/HWSW_Codesign_ECC/src/systemc-2.3.3/build/examples/tlm/at_mixed_targets
+"examples/tlm/at_mixed_targets/at_mixed_targets" start time: Jun 11 02:29 CST
+Output:
+----------------------------------------------------------
+CMake Deprecation Warning at /Users/fanyungwei/Documents/MyDoc/senior_2022/Hardware_Software_Codesign/HWSW_Codesign_ECC/src/systemc-2.3.3/cmake/run_test.cmake:41 (cmake_minimum_required):
+  Compatibility with CMake < 2.8.12 will be removed from a future version of
+  CMake.
+
+  Update the VERSION argument <min> value or use a ...<max> suffix to tell
+  CMake that the project does not need compatibility with older versions.
+
+
+DIFF_EXIT_CODE = 0
+OK
+<end of output>
+Test time =   0.29 sec
+----------------------------------------------------------
+Test Passed.
+"examples/tlm/at_mixed_targets/at_mixed_targets" end time: Jun 11 02:29 CST
+"examples/tlm/at_mixed_targets/at_mixed_targets" time elapsed: 00:00:00
+----------------------------------------------------------
+
+28/33 Testing: examples/tlm/at_ooo/at_ooo
+28/33 Test: examples/tlm/at_ooo/at_ooo
+Command: "/usr/local/Cellar/cmake/3.22.3/bin/cmake" "-DTEST_EXE=/Users/fanyungwei/Documents/MyDoc/senior_2022/Hardware_Software_Codesign/HWSW_Codesign_ECC/src/systemc-2.3.3/build/examples/tlm/at_ooo/at_ooo" "-DTEST_DIR=/Users/fanyungwei/Documents/MyDoc/senior_2022/Hardware_Software_Codesign/HWSW_Codesign_ECC/src/systemc-2.3.3/build/examples/tlm/at_ooo" "-DTEST_INPUT=" "-DTEST_GOLDEN=/Users/fanyungwei/Documents/MyDoc/senior_2022/Hardware_Software_Codesign/HWSW_Codesign_ECC/src/systemc-2.3.3/examples/tlm/at_ooo/results/expected.log" "-DTEST_FILTER=" "-DDIFF_COMMAND=/usr/bin/diff" "-DDIFF_OPTIONS=-u" "-P" "/Users/fanyungwei/Documents/MyDoc/senior_2022/Hardware_Software_Codesign/HWSW_Codesign_ECC/src/systemc-2.3.3/cmake/run_test.cmake"
+Directory: /Users/fanyungwei/Documents/MyDoc/senior_2022/Hardware_Software_Codesign/HWSW_Codesign_ECC/src/systemc-2.3.3/build/examples/tlm/at_ooo
+"examples/tlm/at_ooo/at_ooo" start time: Jun 11 02:29 CST
+Output:
+----------------------------------------------------------
+CMake Deprecation Warning at /Users/fanyungwei/Documents/MyDoc/senior_2022/Hardware_Software_Codesign/HWSW_Codesign_ECC/src/systemc-2.3.3/cmake/run_test.cmake:41 (cmake_minimum_required):
+  Compatibility with CMake < 2.8.12 will be removed from a future version of
+  CMake.
+
+  Update the VERSION argument <min> value or use a ...<max> suffix to tell
+  CMake that the project does not need compatibility with older versions.
+
+
+DIFF_EXIT_CODE = 0
+OK
+<end of output>
+Test time =   0.30 sec
+----------------------------------------------------------
+Test Passed.
+"examples/tlm/at_ooo/at_ooo" end time: Jun 11 02:29 CST
+"examples/tlm/at_ooo/at_ooo" time elapsed: 00:00:00
+----------------------------------------------------------
+
+29/33 Testing: examples/tlm/lt/lt
+29/33 Test: examples/tlm/lt/lt
+Command: "/usr/local/Cellar/cmake/3.22.3/bin/cmake" "-DTEST_EXE=/Users/fanyungwei/Documents/MyDoc/senior_2022/Hardware_Software_Codesign/HWSW_Codesign_ECC/src/systemc-2.3.3/build/examples/tlm/lt/lt" "-DTEST_DIR=/Users/fanyungwei/Documents/MyDoc/senior_2022/Hardware_Software_Codesign/HWSW_Codesign_ECC/src/systemc-2.3.3/build/examples/tlm/lt" "-DTEST_INPUT=" "-DTEST_GOLDEN=/Users/fanyungwei/Documents/MyDoc/senior_2022/Hardware_Software_Codesign/HWSW_Codesign_ECC/src/systemc-2.3.3/examples/tlm/lt/results/expected.log" "-DTEST_FILTER=" "-DDIFF_COMMAND=/usr/bin/diff" "-DDIFF_OPTIONS=-u" "-P" "/Users/fanyungwei/Documents/MyDoc/senior_2022/Hardware_Software_Codesign/HWSW_Codesign_ECC/src/systemc-2.3.3/cmake/run_test.cmake"
+Directory: /Users/fanyungwei/Documents/MyDoc/senior_2022/Hardware_Software_Codesign/HWSW_Codesign_ECC/src/systemc-2.3.3/build/examples/tlm/lt
+"examples/tlm/lt/lt" start time: Jun 11 02:29 CST
+Output:
+----------------------------------------------------------
+CMake Deprecation Warning at /Users/fanyungwei/Documents/MyDoc/senior_2022/Hardware_Software_Codesign/HWSW_Codesign_ECC/src/systemc-2.3.3/cmake/run_test.cmake:41 (cmake_minimum_required):
+  Compatibility with CMake < 2.8.12 will be removed from a future version of
+  CMake.
+
+  Update the VERSION argument <min> value or use a ...<max> suffix to tell
+  CMake that the project does not need compatibility with older versions.
+
+
+DIFF_EXIT_CODE = 0
+OK
+<end of output>
+Test time =   0.27 sec
+----------------------------------------------------------
+Test Passed.
+"examples/tlm/lt/lt" end time: Jun 11 02:29 CST
+"examples/tlm/lt/lt" time elapsed: 00:00:00
+----------------------------------------------------------
+
+30/33 Testing: examples/tlm/lt_dmi/lt_dmi
+30/33 Test: examples/tlm/lt_dmi/lt_dmi
+Command: "/usr/local/Cellar/cmake/3.22.3/bin/cmake" "-DTEST_EXE=/Users/fanyungwei/Documents/MyDoc/senior_2022/Hardware_Software_Codesign/HWSW_Codesign_ECC/src/systemc-2.3.3/build/examples/tlm/lt_dmi/lt_dmi" "-DTEST_DIR=/Users/fanyungwei/Documents/MyDoc/senior_2022/Hardware_Software_Codesign/HWSW_Codesign_ECC/src/systemc-2.3.3/build/examples/tlm/lt_dmi" "-DTEST_INPUT=" "-DTEST_GOLDEN=/Users/fanyungwei/Documents/MyDoc/senior_2022/Hardware_Software_Codesign/HWSW_Codesign_ECC/src/systemc-2.3.3/examples/tlm/lt_dmi/results/expected.log" "-DTEST_FILTER=" "-DDIFF_COMMAND=/usr/bin/diff" "-DDIFF_OPTIONS=-u" "-P" "/Users/fanyungwei/Documents/MyDoc/senior_2022/Hardware_Software_Codesign/HWSW_Codesign_ECC/src/systemc-2.3.3/cmake/run_test.cmake"
+Directory: /Users/fanyungwei/Documents/MyDoc/senior_2022/Hardware_Software_Codesign/HWSW_Codesign_ECC/src/systemc-2.3.3/build/examples/tlm/lt_dmi
+"examples/tlm/lt_dmi/lt_dmi" start time: Jun 11 02:29 CST
+Output:
+----------------------------------------------------------
+CMake Deprecation Warning at /Users/fanyungwei/Documents/MyDoc/senior_2022/Hardware_Software_Codesign/HWSW_Codesign_ECC/src/systemc-2.3.3/cmake/run_test.cmake:41 (cmake_minimum_required):
+  Compatibility with CMake < 2.8.12 will be removed from a future version of
+  CMake.
+
+  Update the VERSION argument <min> value or use a ...<max> suffix to tell
+  CMake that the project does not need compatibility with older versions.
+
+
+DIFF_EXIT_CODE = 0
+OK
+<end of output>
+Test time =   0.27 sec
+----------------------------------------------------------
+Test Passed.
+"examples/tlm/lt_dmi/lt_dmi" end time: Jun 11 02:29 CST
+"examples/tlm/lt_dmi/lt_dmi" time elapsed: 00:00:00
+----------------------------------------------------------
+
+31/33 Testing: examples/tlm/lt_extension_mandatory/lt_extension_mandatory
+31/33 Test: examples/tlm/lt_extension_mandatory/lt_extension_mandatory
+Command: "/usr/local/Cellar/cmake/3.22.3/bin/cmake" "-DTEST_EXE=/Users/fanyungwei/Documents/MyDoc/senior_2022/Hardware_Software_Codesign/HWSW_Codesign_ECC/src/systemc-2.3.3/build/examples/tlm/lt_extension_mandatory/lt_extension_mandatory" "-DTEST_DIR=/Users/fanyungwei/Documents/MyDoc/senior_2022/Hardware_Software_Codesign/HWSW_Codesign_ECC/src/systemc-2.3.3/build/examples/tlm/lt_extension_mandatory" "-DTEST_INPUT=" "-DTEST_GOLDEN=/Users/fanyungwei/Documents/MyDoc/senior_2022/Hardware_Software_Codesign/HWSW_Codesign_ECC/src/systemc-2.3.3/examples/tlm/lt_extension_mandatory/results/expected.log" "-DTEST_FILTER=" "-DDIFF_COMMAND=/usr/bin/diff" "-DDIFF_OPTIONS=-u" "-P" "/Users/fanyungwei/Documents/MyDoc/senior_2022/Hardware_Software_Codesign/HWSW_Codesign_ECC/src/systemc-2.3.3/cmake/run_test.cmake"
+Directory: /Users/fanyungwei/Documents/MyDoc/senior_2022/Hardware_Software_Codesign/HWSW_Codesign_ECC/src/systemc-2.3.3/build/examples/tlm/lt_extension_mandatory
+"examples/tlm/lt_extension_mandatory/lt_extension_mandatory" start time: Jun 11 02:29 CST
+Output:
+----------------------------------------------------------
+CMake Deprecation Warning at /Users/fanyungwei/Documents/MyDoc/senior_2022/Hardware_Software_Codesign/HWSW_Codesign_ECC/src/systemc-2.3.3/cmake/run_test.cmake:41 (cmake_minimum_required):
+  Compatibility with CMake < 2.8.12 will be removed from a future version of
+  CMake.
+
+  Update the VERSION argument <min> value or use a ...<max> suffix to tell
+  CMake that the project does not need compatibility with older versions.
+
+
+DIFF_EXIT_CODE = 0
+OK
+<end of output>
+Test time =   0.26 sec
+----------------------------------------------------------
+Test Passed.
+"examples/tlm/lt_extension_mandatory/lt_extension_mandatory" end time: Jun 11 02:29 CST
+"examples/tlm/lt_extension_mandatory/lt_extension_mandatory" time elapsed: 00:00:00
+----------------------------------------------------------
+
+32/33 Testing: examples/tlm/lt_mixed_endian/lt_mixed_endian
+32/33 Test: examples/tlm/lt_mixed_endian/lt_mixed_endian
+Command: "/usr/local/Cellar/cmake/3.22.3/bin/cmake" "-DTEST_EXE=/Users/fanyungwei/Documents/MyDoc/senior_2022/Hardware_Software_Codesign/HWSW_Codesign_ECC/src/systemc-2.3.3/build/examples/tlm/lt_mixed_endian/lt_mixed_endian" "-DTEST_DIR=/Users/fanyungwei/Documents/MyDoc/senior_2022/Hardware_Software_Codesign/HWSW_Codesign_ECC/src/systemc-2.3.3/build/examples/tlm/lt_mixed_endian" "-DTEST_INPUT=/Users/fanyungwei/Documents/MyDoc/senior_2022/Hardware_Software_Codesign/HWSW_Codesign_ECC/src/systemc-2.3.3/examples/tlm/lt_mixed_endian/results/input.txt" "-DTEST_GOLDEN=/Users/fanyungwei/Documents/MyDoc/senior_2022/Hardware_Software_Codesign/HWSW_Codesign_ECC/src/systemc-2.3.3/examples/tlm/lt_mixed_endian/results/expected.log" "-DTEST_FILTER=::" "-DDIFF_COMMAND=/usr/bin/diff" "-DDIFF_OPTIONS=-u" "-P" "/Users/fanyungwei/Documents/MyDoc/senior_2022/Hardware_Software_Codesign/HWSW_Codesign_ECC/src/systemc-2.3.3/cmake/run_test.cmake"
+Directory: /Users/fanyungwei/Documents/MyDoc/senior_2022/Hardware_Software_Codesign/HWSW_Codesign_ECC/src/systemc-2.3.3/build/examples/tlm/lt_mixed_endian
+"examples/tlm/lt_mixed_endian/lt_mixed_endian" start time: Jun 11 02:29 CST
+Output:
+----------------------------------------------------------
+CMake Deprecation Warning at /Users/fanyungwei/Documents/MyDoc/senior_2022/Hardware_Software_Codesign/HWSW_Codesign_ECC/src/systemc-2.3.3/cmake/run_test.cmake:41 (cmake_minimum_required):
+  Compatibility with CMake < 2.8.12 will be removed from a future version of
+  CMake.
+
+  Update the VERSION argument <min> value or use a ...<max> suffix to tell
+  CMake that the project does not need compatibility with older versions.
+
+
+DIFF_EXIT_CODE = 0
+OK
+<end of output>
+Test time =   0.27 sec
+----------------------------------------------------------
+Test Passed.
+"examples/tlm/lt_mixed_endian/lt_mixed_endian" end time: Jun 11 02:29 CST
+"examples/tlm/lt_mixed_endian/lt_mixed_endian" time elapsed: 00:00:00
+----------------------------------------------------------
+
+33/33 Testing: examples/tlm/lt_temporal_decouple/lt_temporal_decouple
+33/33 Test: examples/tlm/lt_temporal_decouple/lt_temporal_decouple
+Command: "/usr/local/Cellar/cmake/3.22.3/bin/cmake" "-DTEST_EXE=/Users/fanyungwei/Documents/MyDoc/senior_2022/Hardware_Software_Codesign/HWSW_Codesign_ECC/src/systemc-2.3.3/build/examples/tlm/lt_temporal_decouple/lt_temporal_decouple" "-DTEST_DIR=/Users/fanyungwei/Documents/MyDoc/senior_2022/Hardware_Software_Codesign/HWSW_Codesign_ECC/src/systemc-2.3.3/build/examples/tlm/lt_temporal_decouple" "-DTEST_INPUT=" "-DTEST_GOLDEN=/Users/fanyungwei/Documents/MyDoc/senior_2022/Hardware_Software_Codesign/HWSW_Codesign_ECC/src/systemc-2.3.3/examples/tlm/lt_temporal_decouple/results/expected.log" "-DTEST_FILTER=" "-DDIFF_COMMAND=/usr/bin/diff" "-DDIFF_OPTIONS=-u" "-P" "/Users/fanyungwei/Documents/MyDoc/senior_2022/Hardware_Software_Codesign/HWSW_Codesign_ECC/src/systemc-2.3.3/cmake/run_test.cmake"
+Directory: /Users/fanyungwei/Documents/MyDoc/senior_2022/Hardware_Software_Codesign/HWSW_Codesign_ECC/src/systemc-2.3.3/build/examples/tlm/lt_temporal_decouple
+"examples/tlm/lt_temporal_decouple/lt_temporal_decouple" start time: Jun 11 02:29 CST
+Output:
+----------------------------------------------------------
+CMake Deprecation Warning at /Users/fanyungwei/Documents/MyDoc/senior_2022/Hardware_Software_Codesign/HWSW_Codesign_ECC/src/systemc-2.3.3/cmake/run_test.cmake:41 (cmake_minimum_required):
+  Compatibility with CMake < 2.8.12 will be removed from a future version of
+  CMake.
+
+  Update the VERSION argument <min> value or use a ...<max> suffix to tell
+  CMake that the project does not need compatibility with older versions.
+
+
+DIFF_EXIT_CODE = 0
+OK
+<end of output>
+Test time =   0.28 sec
+----------------------------------------------------------
+Test Passed.
+"examples/tlm/lt_temporal_decouple/lt_temporal_decouple" end time: Jun 11 02:29 CST
+"examples/tlm/lt_temporal_decouple/lt_temporal_decouple" time elapsed: 00:00:00
+----------------------------------------------------------
+
+End testing: Jun 11 02:29 CST

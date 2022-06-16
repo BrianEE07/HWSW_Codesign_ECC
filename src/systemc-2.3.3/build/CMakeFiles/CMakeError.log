@@ -1,0 +1,324 @@
+Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" failed.
+Compiler: /Library/Developer/CommandLineTools/usr/bin/c++ 
+Build flags: 
+Id flags:  
+
+The output was:
+1
+ld: library not found for -lc++
+clang: error: linker command failed with exit code 1 (use -v to see invocation)
+
+
+Compiling the C compiler identification source file "CMakeCCompilerId.c" failed.
+Compiler: /Library/Developer/CommandLineTools/usr/bin/cc 
+Build flags: 
+Id flags:  
+
+The output was:
+1
+ld: library not found for -lSystem
+clang: error: linker command failed with exit code 1 (use -v to see invocation)
+
+
+Determining if the __sparc exist failed with the following output:
+Change Dir: /Users/fanyungwei/Documents/MyDoc/senior_2022/Hardware_Software_Codesign/HWSW_Codesign_ECC/src/systemc-2.3.3/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_8c3d8/fast && /Library/Developer/CommandLineTools/usr/bin/make  -f CMakeFiles/cmTC_8c3d8.dir/build.make CMakeFiles/cmTC_8c3d8.dir/build
+Building C object CMakeFiles/cmTC_8c3d8.dir/CheckSymbolExists.c.o
+/Library/Developer/CommandLineTools/usr/bin/cc   -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk -MD -MT CMakeFiles/cmTC_8c3d8.dir/CheckSymbolExists.c.o -MF CMakeFiles/cmTC_8c3d8.dir/CheckSymbolExists.c.o.d -o CMakeFiles/cmTC_8c3d8.dir/CheckSymbolExists.c.o -c /Users/fanyungwei/Documents/MyDoc/senior_2022/Hardware_Software_Codesign/HWSW_Codesign_ECC/src/systemc-2.3.3/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+/Users/fanyungwei/Documents/MyDoc/senior_2022/Hardware_Software_Codesign/HWSW_Codesign_ECC/src/systemc-2.3.3/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:7:19: error: use of undeclared identifier '__sparc'
+  return ((int*)(&__sparc))[argc];
+                  ^
+1 error generated.
+make[1]: *** [CMakeFiles/cmTC_8c3d8.dir/CheckSymbolExists.c.o] Error 1
+make: *** [cmTC_8c3d8/fast] Error 2
+
+
+File /Users/fanyungwei/Documents/MyDoc/senior_2022/Hardware_Software_Codesign/HWSW_Codesign_ECC/src/systemc-2.3.3/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef __sparc
+  return ((int*)(&__sparc))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the __sparc__ exist failed with the following output:
+Change Dir: /Users/fanyungwei/Documents/MyDoc/senior_2022/Hardware_Software_Codesign/HWSW_Codesign_ECC/src/systemc-2.3.3/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_0a94c/fast && /Library/Developer/CommandLineTools/usr/bin/make  -f CMakeFiles/cmTC_0a94c.dir/build.make CMakeFiles/cmTC_0a94c.dir/build
+Building C object CMakeFiles/cmTC_0a94c.dir/CheckSymbolExists.c.o
+/Library/Developer/CommandLineTools/usr/bin/cc   -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk -MD -MT CMakeFiles/cmTC_0a94c.dir/CheckSymbolExists.c.o -MF CMakeFiles/cmTC_0a94c.dir/CheckSymbolExists.c.o.d -o CMakeFiles/cmTC_0a94c.dir/CheckSymbolExists.c.o -c /Users/fanyungwei/Documents/MyDoc/senior_2022/Hardware_Software_Codesign/HWSW_Codesign_ECC/src/systemc-2.3.3/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+/Users/fanyungwei/Documents/MyDoc/senior_2022/Hardware_Software_Codesign/HWSW_Codesign_ECC/src/systemc-2.3.3/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:7:19: error: use of undeclared identifier '__sparc__'
+  return ((int*)(&__sparc__))[argc];
+                  ^
+1 error generated.
+make[1]: *** [CMakeFiles/cmTC_0a94c.dir/CheckSymbolExists.c.o] Error 1
+make: *** [cmTC_0a94c/fast] Error 2
+
+
+File /Users/fanyungwei/Documents/MyDoc/senior_2022/Hardware_Software_Codesign/HWSW_Codesign_ECC/src/systemc-2.3.3/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef __sparc__
+  return ((int*)(&__sparc__))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the __hppa exist failed with the following output:
+Change Dir: /Users/fanyungwei/Documents/MyDoc/senior_2022/Hardware_Software_Codesign/HWSW_Codesign_ECC/src/systemc-2.3.3/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_3e3ec/fast && /Library/Developer/CommandLineTools/usr/bin/make  -f CMakeFiles/cmTC_3e3ec.dir/build.make CMakeFiles/cmTC_3e3ec.dir/build
+Building C object CMakeFiles/cmTC_3e3ec.dir/CheckSymbolExists.c.o
+/Library/Developer/CommandLineTools/usr/bin/cc   -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk -MD -MT CMakeFiles/cmTC_3e3ec.dir/CheckSymbolExists.c.o -MF CMakeFiles/cmTC_3e3ec.dir/CheckSymbolExists.c.o.d -o CMakeFiles/cmTC_3e3ec.dir/CheckSymbolExists.c.o -c /Users/fanyungwei/Documents/MyDoc/senior_2022/Hardware_Software_Codesign/HWSW_Codesign_ECC/src/systemc-2.3.3/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+/Users/fanyungwei/Documents/MyDoc/senior_2022/Hardware_Software_Codesign/HWSW_Codesign_ECC/src/systemc-2.3.3/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:7:19: error: use of undeclared identifier '__hppa'
+  return ((int*)(&__hppa))[argc];
+                  ^
+1 error generated.
+make[1]: *** [CMakeFiles/cmTC_3e3ec.dir/CheckSymbolExists.c.o] Error 1
+make: *** [cmTC_3e3ec/fast] Error 2
+
+
+File /Users/fanyungwei/Documents/MyDoc/senior_2022/Hardware_Software_Codesign/HWSW_Codesign_ECC/src/systemc-2.3.3/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef __hppa
+  return ((int*)(&__hppa))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the __i386 exist failed with the following output:
+Change Dir: /Users/fanyungwei/Documents/MyDoc/senior_2022/Hardware_Software_Codesign/HWSW_Codesign_ECC/src/systemc-2.3.3/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_abb9f/fast && /Library/Developer/CommandLineTools/usr/bin/make  -f CMakeFiles/cmTC_abb9f.dir/build.make CMakeFiles/cmTC_abb9f.dir/build
+Building C object CMakeFiles/cmTC_abb9f.dir/CheckSymbolExists.c.o
+/Library/Developer/CommandLineTools/usr/bin/cc   -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk -MD -MT CMakeFiles/cmTC_abb9f.dir/CheckSymbolExists.c.o -MF CMakeFiles/cmTC_abb9f.dir/CheckSymbolExists.c.o.d -o CMakeFiles/cmTC_abb9f.dir/CheckSymbolExists.c.o -c /Users/fanyungwei/Documents/MyDoc/senior_2022/Hardware_Software_Codesign/HWSW_Codesign_ECC/src/systemc-2.3.3/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+/Users/fanyungwei/Documents/MyDoc/senior_2022/Hardware_Software_Codesign/HWSW_Codesign_ECC/src/systemc-2.3.3/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:7:19: error: use of undeclared identifier '__i386'
+  return ((int*)(&__i386))[argc];
+                  ^
+1 error generated.
+make[1]: *** [CMakeFiles/cmTC_abb9f.dir/CheckSymbolExists.c.o] Error 1
+make: *** [cmTC_abb9f/fast] Error 2
+
+
+File /Users/fanyungwei/Documents/MyDoc/senior_2022/Hardware_Software_Codesign/HWSW_Codesign_ECC/src/systemc-2.3.3/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef __i386
+  return ((int*)(&__i386))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the __aarch64__ exist failed with the following output:
+Change Dir: /Users/fanyungwei/Documents/MyDoc/senior_2022/Hardware_Software_Codesign/HWSW_Codesign_ECC/src/systemc-2.3.3/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_665cd/fast && /Library/Developer/CommandLineTools/usr/bin/make  -f CMakeFiles/cmTC_665cd.dir/build.make CMakeFiles/cmTC_665cd.dir/build
+Building C object CMakeFiles/cmTC_665cd.dir/CheckSymbolExists.c.o
+/Library/Developer/CommandLineTools/usr/bin/cc   -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk -MD -MT CMakeFiles/cmTC_665cd.dir/CheckSymbolExists.c.o -MF CMakeFiles/cmTC_665cd.dir/CheckSymbolExists.c.o.d -o CMakeFiles/cmTC_665cd.dir/CheckSymbolExists.c.o -c /Users/fanyungwei/Documents/MyDoc/senior_2022/Hardware_Software_Codesign/HWSW_Codesign_ECC/src/systemc-2.3.3/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+/Users/fanyungwei/Documents/MyDoc/senior_2022/Hardware_Software_Codesign/HWSW_Codesign_ECC/src/systemc-2.3.3/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:7:19: error: use of undeclared identifier '__aarch64__'
+  return ((int*)(&__aarch64__))[argc];
+                  ^
+1 error generated.
+make[1]: *** [CMakeFiles/cmTC_665cd.dir/CheckSymbolExists.c.o] Error 1
+make: *** [cmTC_665cd/fast] Error 2
+
+
+File /Users/fanyungwei/Documents/MyDoc/senior_2022/Hardware_Software_Codesign/HWSW_Codesign_ECC/src/systemc-2.3.3/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef __aarch64__
+  return ((int*)(&__aarch64__))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the __ppc__ exist failed with the following output:
+Change Dir: /Users/fanyungwei/Documents/MyDoc/senior_2022/Hardware_Software_Codesign/HWSW_Codesign_ECC/src/systemc-2.3.3/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_1056a/fast && /Library/Developer/CommandLineTools/usr/bin/make  -f CMakeFiles/cmTC_1056a.dir/build.make CMakeFiles/cmTC_1056a.dir/build
+Building C object CMakeFiles/cmTC_1056a.dir/CheckSymbolExists.c.o
+/Library/Developer/CommandLineTools/usr/bin/cc   -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk -MD -MT CMakeFiles/cmTC_1056a.dir/CheckSymbolExists.c.o -MF CMakeFiles/cmTC_1056a.dir/CheckSymbolExists.c.o.d -o CMakeFiles/cmTC_1056a.dir/CheckSymbolExists.c.o -c /Users/fanyungwei/Documents/MyDoc/senior_2022/Hardware_Software_Codesign/HWSW_Codesign_ECC/src/systemc-2.3.3/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+/Users/fanyungwei/Documents/MyDoc/senior_2022/Hardware_Software_Codesign/HWSW_Codesign_ECC/src/systemc-2.3.3/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:7:19: error: use of undeclared identifier '__ppc__'
+  return ((int*)(&__ppc__))[argc];
+                  ^
+1 error generated.
+make[1]: *** [CMakeFiles/cmTC_1056a.dir/CheckSymbolExists.c.o] Error 1
+make: *** [cmTC_1056a/fast] Error 2
+
+
+File /Users/fanyungwei/Documents/MyDoc/senior_2022/Hardware_Software_Codesign/HWSW_Codesign_ECC/src/systemc-2.3.3/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef __ppc__
+  return ((int*)(&__ppc__))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the __powerpc exist failed with the following output:
+Change Dir: /Users/fanyungwei/Documents/MyDoc/senior_2022/Hardware_Software_Codesign/HWSW_Codesign_ECC/src/systemc-2.3.3/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_c3458/fast && /Library/Developer/CommandLineTools/usr/bin/make  -f CMakeFiles/cmTC_c3458.dir/build.make CMakeFiles/cmTC_c3458.dir/build
+Building C object CMakeFiles/cmTC_c3458.dir/CheckSymbolExists.c.o
+/Library/Developer/CommandLineTools/usr/bin/cc   -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk -MD -MT CMakeFiles/cmTC_c3458.dir/CheckSymbolExists.c.o -MF CMakeFiles/cmTC_c3458.dir/CheckSymbolExists.c.o.d -o CMakeFiles/cmTC_c3458.dir/CheckSymbolExists.c.o -c /Users/fanyungwei/Documents/MyDoc/senior_2022/Hardware_Software_Codesign/HWSW_Codesign_ECC/src/systemc-2.3.3/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+/Users/fanyungwei/Documents/MyDoc/senior_2022/Hardware_Software_Codesign/HWSW_Codesign_ECC/src/systemc-2.3.3/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:7:19: error: use of undeclared identifier '__powerpc'
+  return ((int*)(&__powerpc))[argc];
+                  ^
+1 error generated.
+make[1]: *** [CMakeFiles/cmTC_c3458.dir/CheckSymbolExists.c.o] Error 1
+make: *** [cmTC_c3458/fast] Error 2
+
+
+File /Users/fanyungwei/Documents/MyDoc/senior_2022/Hardware_Software_Codesign/HWSW_Codesign_ECC/src/systemc-2.3.3/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef __powerpc
+  return ((int*)(&__powerpc))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Checking whether the ASM compiler is GNU using "--version" did not match "(GNU assembler)|(GCC)|(Free Software Foundation)":
+Apple clang version 12.0.5 (clang-1205.0.22.11)
+Target: x86_64-apple-darwin20.6.0
+Thread model: posix
+InstalledDir: /Library/Developer/CommandLineTools/usr/bin
+Determining if the __i386 exist failed with the following output:
+Change Dir: /Users/fanyungwei/Documents/MyDoc/senior_2022/Hardware_Software_Codesign/HWSW_Codesign_ECC/src/systemc-2.3.3/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_dab99/fast && /Library/Developer/CommandLineTools/usr/bin/make  -f CMakeFiles/cmTC_dab99.dir/build.make CMakeFiles/cmTC_dab99.dir/build
+Building C object CMakeFiles/cmTC_dab99.dir/CheckSymbolExists.c.o
+/Library/Developer/CommandLineTools/usr/bin/cc   -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk -MD -MT CMakeFiles/cmTC_dab99.dir/CheckSymbolExists.c.o -MF CMakeFiles/cmTC_dab99.dir/CheckSymbolExists.c.o.d -o CMakeFiles/cmTC_dab99.dir/CheckSymbolExists.c.o -c /Users/fanyungwei/Documents/MyDoc/senior_2022/Hardware_Software_Codesign/HWSW_Codesign_ECC/src/systemc-2.3.3/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+/Users/fanyungwei/Documents/MyDoc/senior_2022/Hardware_Software_Codesign/HWSW_Codesign_ECC/src/systemc-2.3.3/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:7:19: error: use of undeclared identifier '__i386'
+  return ((int*)(&__i386))[argc];
+                  ^
+1 error generated.
+make[1]: *** [CMakeFiles/cmTC_dab99.dir/CheckSymbolExists.c.o] Error 1
+make: *** [cmTC_dab99/fast] Error 2
+
+
+File /Users/fanyungwei/Documents/MyDoc/senior_2022/Hardware_Software_Codesign/HWSW_Codesign_ECC/src/systemc-2.3.3/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef __i386
+  return ((int*)(&__i386))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the __ppc__ exist failed with the following output:
+Change Dir: /Users/fanyungwei/Documents/MyDoc/senior_2022/Hardware_Software_Codesign/HWSW_Codesign_ECC/src/systemc-2.3.3/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_719cb/fast && /Library/Developer/CommandLineTools/usr/bin/make  -f CMakeFiles/cmTC_719cb.dir/build.make CMakeFiles/cmTC_719cb.dir/build
+Building C object CMakeFiles/cmTC_719cb.dir/CheckSymbolExists.c.o
+/Library/Developer/CommandLineTools/usr/bin/cc   -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk -MD -MT CMakeFiles/cmTC_719cb.dir/CheckSymbolExists.c.o -MF CMakeFiles/cmTC_719cb.dir/CheckSymbolExists.c.o.d -o CMakeFiles/cmTC_719cb.dir/CheckSymbolExists.c.o -c /Users/fanyungwei/Documents/MyDoc/senior_2022/Hardware_Software_Codesign/HWSW_Codesign_ECC/src/systemc-2.3.3/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+/Users/fanyungwei/Documents/MyDoc/senior_2022/Hardware_Software_Codesign/HWSW_Codesign_ECC/src/systemc-2.3.3/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:7:19: error: use of undeclared identifier '__ppc__'
+  return ((int*)(&__ppc__))[argc];
+                  ^
+1 error generated.
+make[1]: *** [CMakeFiles/cmTC_719cb.dir/CheckSymbolExists.c.o] Error 1
+make: *** [cmTC_719cb/fast] Error 2
+
+
+File /Users/fanyungwei/Documents/MyDoc/senior_2022/Hardware_Software_Codesign/HWSW_Codesign_ECC/src/systemc-2.3.3/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef __ppc__
+  return ((int*)(&__ppc__))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the __i386 exist failed with the following output:
+Change Dir: /Users/fanyungwei/Documents/MyDoc/senior_2022/Hardware_Software_Codesign/HWSW_Codesign_ECC/src/systemc-2.3.3/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_cf9e3/fast && /Library/Developer/CommandLineTools/usr/bin/make  -f CMakeFiles/cmTC_cf9e3.dir/build.make CMakeFiles/cmTC_cf9e3.dir/build
+Building C object CMakeFiles/cmTC_cf9e3.dir/CheckSymbolExists.c.o
+/Library/Developer/CommandLineTools/usr/bin/cc   -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk -MD -MT CMakeFiles/cmTC_cf9e3.dir/CheckSymbolExists.c.o -MF CMakeFiles/cmTC_cf9e3.dir/CheckSymbolExists.c.o.d -o CMakeFiles/cmTC_cf9e3.dir/CheckSymbolExists.c.o -c /Users/fanyungwei/Documents/MyDoc/senior_2022/Hardware_Software_Codesign/HWSW_Codesign_ECC/src/systemc-2.3.3/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+/Users/fanyungwei/Documents/MyDoc/senior_2022/Hardware_Software_Codesign/HWSW_Codesign_ECC/src/systemc-2.3.3/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:7:19: error: use of undeclared identifier '__i386'
+  return ((int*)(&__i386))[argc];
+                  ^
+1 error generated.
+make[1]: *** [CMakeFiles/cmTC_cf9e3.dir/CheckSymbolExists.c.o] Error 1
+make: *** [cmTC_cf9e3/fast] Error 2
+
+
+File /Users/fanyungwei/Documents/MyDoc/senior_2022/Hardware_Software_Codesign/HWSW_Codesign_ECC/src/systemc-2.3.3/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef __i386
+  return ((int*)(&__i386))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the __ppc__ exist failed with the following output:
+Change Dir: /Users/fanyungwei/Documents/MyDoc/senior_2022/Hardware_Software_Codesign/HWSW_Codesign_ECC/src/systemc-2.3.3/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_bca4e/fast && /Library/Developer/CommandLineTools/usr/bin/make  -f CMakeFiles/cmTC_bca4e.dir/build.make CMakeFiles/cmTC_bca4e.dir/build
+Building C object CMakeFiles/cmTC_bca4e.dir/CheckSymbolExists.c.o
+/Library/Developer/CommandLineTools/usr/bin/cc   -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk -MD -MT CMakeFiles/cmTC_bca4e.dir/CheckSymbolExists.c.o -MF CMakeFiles/cmTC_bca4e.dir/CheckSymbolExists.c.o.d -o CMakeFiles/cmTC_bca4e.dir/CheckSymbolExists.c.o -c /Users/fanyungwei/Documents/MyDoc/senior_2022/Hardware_Software_Codesign/HWSW_Codesign_ECC/src/systemc-2.3.3/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+/Users/fanyungwei/Documents/MyDoc/senior_2022/Hardware_Software_Codesign/HWSW_Codesign_ECC/src/systemc-2.3.3/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:7:19: error: use of undeclared identifier '__ppc__'
+  return ((int*)(&__ppc__))[argc];
+                  ^
+1 error generated.
+make[1]: *** [CMakeFiles/cmTC_bca4e.dir/CheckSymbolExists.c.o] Error 1
+make: *** [cmTC_bca4e/fast] Error 2
+
+
+File /Users/fanyungwei/Documents/MyDoc/senior_2022/Hardware_Software_Codesign/HWSW_Codesign_ECC/src/systemc-2.3.3/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef __ppc__
+  return ((int*)(&__ppc__))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}

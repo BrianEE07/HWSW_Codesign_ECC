@@ -76,7 +76,6 @@ int sc_main(int argc, char *argv[])
 		sc_trace(Tf, top.port3i, "port3i");
 
 		sc_start(maxtime, SC_NS);
-			
 		sc_close_vcd_trace_file(Tf);
 
         return(0);

@@ -1949,10 +1949,23 @@ SC_MODULE(ECC_mon){
     sc_in<sc_uint<8>> P2;
     sc_in<sc_uint<8>> P3;
 
+    sc_signal<sc_uint<4>> cnt;
+ 
     void monitor() {
-        if (rst_n == 0) cout << sc_time_stamp() << "\t" << "RESET" << endl;
+        if (rst_n == 0) {
+            cnt.write(0);
+            cout << sc_time_stamp() << "\t" << "RESET" << endl;
+        }
+        else if (P0 == sc_uint<8>(1) && cnt.read() <= 6) {
+            if (cnt.read() == 0) cout << "start input..." << endl;
+            cout << sc_time_stamp() << "\t\t" << sc_bv<8>(P0) << "\t" << sc_bv<8>(P1) << "\t" << sc_bv<8>(P2) << "\t" << sc_bv<8>(P3) << endl;
+            cnt.write(cnt.read() + 1);
+        }
         else if (P3 == sc_uint<8>(1)) {
+            if (cnt.read() == 7) cout << "finish, output..." << endl;
             cout << sc_time_stamp() << "\t" << sc_bv<8>(P0) << "\t" << sc_bv<8>(P1) << "\t" << sc_bv<8>(P2) << "\t" << sc_bv<8>(P3) << endl;
+            cnt.write(cnt.read() + 1);
+            if (cnt.read() == 9) sc_stop();
         }
         else {
             // cout << sc_time_stamp() << "\t" << sc_bv<8>(P0) << "\t" << sc_bv<8>(P1) << "\t" << sc_bv<8>(P2) << "\t" << sc_bv<8>(P3) << endl;
@@ -1960,7 +1973,7 @@ SC_MODULE(ECC_mon){
     }
   
     SC_CTOR(ECC_mon) {
-        cout << endl << "time\t\tP0\t\tP1\t\tP2\t\tP3" << endl;
+        cout << endl << "time\t\tP0(start)\tP1(in_data)\tP2(out_data)\tP3(valid)" << endl;
         SC_METHOD(monitor);
         sensitive << clk.pos();
         dont_initialize();
